@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T16:57:06.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="4jS0OZ8uOysjYMgPEVKm" version="22.0.8" type="google">
+<mxfile host="app.diagrams.net" modified="2023-11-08T16:58:52.420Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="34FdkWPrGemWI3WIG2sq" version="22.0.8" type="google">
   <diagram name="Page-1" id="zSlbWLtohsy82lPIaHCv">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-24" value="MLD" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="100" y="650" width="1230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-68" value="MPD" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1694" width="1380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-103" value="Gestion de compte Banquaire" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="608" y="-640" width="370" height="150" as="geometry" />
@@ -272,11 +275,133 @@
         <mxCell id="2LoijQER2AwYKau-_3pd-215" value="identifiant du conseiller&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="601" y="1388" width="209" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-217" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="133.25" y="2070" width="260" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-218" value="Banque / Agence" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="157.75" y="2096" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-219" value="Nommination (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="158.75" y="2207" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-220" value="Localisation (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="158.75" y="2247" width="209" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-221" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1005.5" y="2078" width="478" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-222" value="Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1043.5" y="2100" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-223" value="Nom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1044.5" y="2181" width="389" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-224" value="Prénom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1044.5" y="2221" width="389" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-227" target="2LoijQER2AwYKau-_3pd-217">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="263" y="2494" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-227" target="2LoijQER2AwYKau-_3pd-233">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="2380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-227" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2270" width="288" height="338" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-228" value="Conseiller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2310" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-229" value="Nom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="541" y="2391" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-230" value="Prénom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="541" y="2431" width="209" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-221" target="2LoijQER2AwYKau-_3pd-227">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="2490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-233" target="2LoijQER2AwYKau-_3pd-217">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1920" />
+              <mxPoint x="263" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-248" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-233" target="2LoijQER2AwYKau-_3pd-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-427" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-233" target="2LoijQER2AwYKau-_3pd-419">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-233" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1770" width="440" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-234" value="Compte Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1775" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-235" value="Type de compte (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="556" y="1941" width="344" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-236" value="Date de création (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="556" y="1976" width="334" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-221" target="2LoijQER2AwYKau-_3pd-233">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="948.0000000000005" y="2122" as="sourcePoint" />
+            <mxPoint x="804" y="1930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-238" value="Date de naissance (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1044.5" y="2261" width="389" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-239" value="Id_banque (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="541" y="2471" width="209" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-240" value="Solde (Réel)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="556" y="2076" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-242" value="Id_banque (varchar(250))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="556" y="2116" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-243" value="Id_client (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1044.5" y="2141" width="389" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-244" value="Id (varchar(255)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="556" y="1901" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-245" value="Id_banque (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="158.75" y="2167" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-246" value="Id_Conseiller (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="541" y="2351" width="209" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-280" value="Identifiant Client" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="615" y="880" width="209" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-281" value="Id_client (varchar(255)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1821" width="215" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-284" value="Identifiant du conseiller" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="616" y="1153" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-285" value="id_conseiller (varchar(255)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;align=left;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1865" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-287" value="Situation maritale" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="961" y="303" width="209" height="29" as="geometry" />
@@ -284,8 +409,14 @@
         <mxCell id="2LoijQER2AwYKau-_3pd-294" value="Situation maritale" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="961" y="1300" width="209" height="29" as="geometry" />
         </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-295" value="Situation maritale (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1044.5" y="2302" width="389" height="29" as="geometry" />
+        </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-297" value="Date de résiliation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="616" y="1033" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-298" value="Date de résiliation(Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="556" y="2026" width="334" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-395" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="30" y="-169" width="260" height="309" as="geometry" />
@@ -332,6 +463,37 @@
         <mxCell id="2LoijQER2AwYKau-_3pd-418" value="Identifiant Compte expéditeur" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="25" y="826" width="209" height="34" as="geometry" />
         </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-440" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-419" target="2LoijQER2AwYKau-_3pd-217">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-21" y="2300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-419" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-151" y="1831" width="260" height="419" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-420" value="Transactions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-126" y="1860" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-421" value="Montant (Réel)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="1976" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-422" value="id_bank_exp (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="2016" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-423" value="id_bank_dest (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="2056" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-424" value="Motif (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="2096" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-425" value="id_compte_dest (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="1936" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-426" value="id_compte_exp (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="1896" width="209" height="34" as="geometry" />
+        </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-428" value="Date" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="56" y="-74" width="209" height="34" as="geometry" />
         </mxCell>
@@ -340,6 +502,12 @@
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-431" value="Date de reception" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="24" y="1105" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-433" value="Date d&#39;envoie (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="2136" width="209" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-434" value="Date de reception (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="2176" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-441" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="73.25" y="-214" width="60" height="30" as="geometry" />
