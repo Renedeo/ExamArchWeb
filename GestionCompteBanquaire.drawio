@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T16:58:52.420Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="34FdkWPrGemWI3WIG2sq" version="22.0.8" type="google">
+<mxfile host="app.diagrams.net" modified="2023-11-08T17:01:27.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="MBp5iLc3-rmkFGhuIvKA" version="22.0.8" type="google">
   <diagram name="Page-1" id="zSlbWLtohsy82lPIaHCv">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,6 +36,147 @@
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-103" value="Gestion de compte Banquaire" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="608" y="-640" width="370" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-104" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="181" y="2760" width="1120" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+          <mxGeometry width="1120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-106" value="Table" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" vertex="1" parent="2LoijQER2AwYKau-_3pd-105">
+          <mxGeometry width="270" height="140" as="geometry">
+            <mxRectangle width="270" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-107" value="Champs" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" vertex="1" parent="2LoijQER2AwYKau-_3pd-105">
+          <mxGeometry x="270" width="300" height="140" as="geometry">
+            <mxRectangle width="300" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-108" value="Description" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" vertex="1" parent="2LoijQER2AwYKau-_3pd-105">
+          <mxGeometry x="570" width="271" height="140" as="geometry">
+            <mxRectangle width="271" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-109" value="Type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" vertex="1" parent="2LoijQER2AwYKau-_3pd-105">
+          <mxGeometry x="841" width="279" height="140" as="geometry">
+            <mxRectangle width="279" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-110" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+          <mxGeometry y="140" width="1120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-111" value="Client" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-110">
+          <mxGeometry width="270" height="140" as="geometry">
+            <mxRectangle width="270" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-112" value="id_client&amp;nbsp;&lt;br&gt;nom&amp;nbsp;&lt;br&gt;prénom&amp;nbsp;&lt;br&gt;Date de naissance&lt;br&gt;Situation familliale" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-110">
+          <mxGeometry x="270" width="300" height="140" as="geometry">
+            <mxRectangle width="300" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-113" value="Table correspondant aux clients. Avec les défférentes informations comme les situations familialle." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-110">
+          <mxGeometry x="570" width="271" height="140" as="geometry">
+            <mxRectangle width="271" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-114" value="varchar(255)&lt;br&gt;varchar(50)&lt;br&gt;varchar(50)&lt;br&gt;Date&lt;br&gt;varchar(255)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-110">
+          <mxGeometry x="841" width="279" height="140" as="geometry">
+            <mxRectangle width="279" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-115" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+          <mxGeometry y="280" width="1120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-116" value="Banque / Agence" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-115">
+          <mxGeometry width="270" height="140" as="geometry">
+            <mxRectangle width="270" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-117" value="id_banque&lt;br&gt;Nommination&lt;br&gt;Localisation" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-115">
+          <mxGeometry x="270" width="300" height="140" as="geometry">
+            <mxRectangle width="300" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-118" value="Table correspondant au différentes banques enregistrer dans la base de données.&lt;br&gt;à savoir le nom de la banque et son addresse." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-115">
+          <mxGeometry x="570" width="271" height="140" as="geometry">
+            <mxRectangle width="271" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-119" value="varchar(255)&lt;br&gt;varchar(50)&lt;br&gt;varchar(255)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-115">
+          <mxGeometry x="841" width="279" height="140" as="geometry">
+            <mxRectangle width="279" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-120" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+          <mxGeometry y="420" width="1120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-121" value="Conseiller" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-120">
+          <mxGeometry width="270" height="140" as="geometry">
+            <mxRectangle width="270" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-122" value="id_conseiller&amp;nbsp;&lt;br&gt;Nom&lt;br&gt;Prénom&lt;br&gt;Id_banque" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-120">
+          <mxGeometry x="270" width="300" height="140" as="geometry">
+            <mxRectangle width="300" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-123" value="Table correspondant aux différents information sur les conseillers enregistrer dans la base de données.&lt;br&gt;à savoir la banque dans laquelle il travaille et son identifiant dans cette banque." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-120">
+          <mxGeometry x="570" width="271" height="140" as="geometry">
+            <mxRectangle width="271" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-124" value="varchar(255)&lt;br&gt;varchar(50)&lt;br&gt;varchar(50)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-120">
+          <mxGeometry x="841" width="279" height="140" as="geometry">
+            <mxRectangle width="279" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-125" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+          <mxGeometry y="560" width="1120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-126" value="Compte Client" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-125">
+          <mxGeometry width="270" height="140" as="geometry">
+            <mxRectangle width="270" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-127" value="id&lt;br&gt;id_client&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Id_banque&lt;br&gt;id_conseiller&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Type de compte&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date de création&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date de résiliation&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Solde&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-125">
+          <mxGeometry x="270" width="300" height="140" as="geometry">
+            <mxRectangle width="300" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-128" value="table comportant les information sur le compte client comme la banque , le client et le conseiller associée." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-125">
+          <mxGeometry x="570" width="271" height="140" as="geometry">
+            <mxRectangle width="271" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-129" value="varchar(255)&lt;br&gt;varchar(255)&amp;nbsp;&lt;br&gt;varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)&amp;nbsp;&lt;br&gt;Date&lt;br&gt;Date&lt;br&gt;Réel" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-125">
+          <mxGeometry x="841" width="279" height="140" as="geometry">
+            <mxRectangle width="279" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-435" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+          <mxGeometry y="700" width="1120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-436" value="Transactions" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-435">
+          <mxGeometry width="270" height="140" as="geometry">
+            <mxRectangle width="270" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-437" value="id_compte_exp&lt;br&gt;id_compte_dest&lt;br&gt;id_banque_exp&lt;br&gt;id_banque_dest&lt;br&gt;Date&lt;br&gt;Montant" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-435">
+          <mxGeometry x="270" width="300" height="140" as="geometry">
+            <mxRectangle width="300" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-438" value="table correspondant aux différentes transactions entre les client d&#39;une ou différentes banques&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-435">
+          <mxGeometry x="570" width="271" height="140" as="geometry">
+            <mxRectangle width="271" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-439" value="varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-435">
+          <mxGeometry x="841" width="279" height="140" as="geometry">
+            <mxRectangle width="279" height="140" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-135" target="2LoijQER2AwYKau-_3pd-1">
           <mxGeometry relative="1" as="geometry">
@@ -390,6 +531,9 @@
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-246" value="Id_Conseiller (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="541" y="2351" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2LoijQER2AwYKau-_3pd-249" value="Dictionnaire de données&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="33" y="2660" width="1380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-280" value="Identifiant Client" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="615" y="880" width="209" height="30" as="geometry" />
