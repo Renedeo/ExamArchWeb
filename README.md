@@ -21,13 +21,13 @@ Nous avons donc <strong><span style="color:blue;">table de transactions</span></
 
 Pour le reste nous avons la création des tables:
 * <strong><span style="color:blue;">Banque</span></strong>     
-Banque ou agence enrégistrée
+Banque(s) ou agence(s) enrégistrée(s)
 * <strong><span style="color:blue;">Client</span></strong> 
-Table enrégistrant les information sur les client
+Table enrégistrant les information sur les clients
 * <strong><span style="color:blue;">Compte Client</span></strong> 
-Information sur les compte client
+Informations sur les comptes clients
 * <strong><span style="color:blue;">Conseiller</span></strong> 
-Table correspondant plus aux conseillers de la banque
+Table correspondant aux conseillers de la banque
 
 <div style="background:red;color:white;text-align:center">Correspondant aux tables non présentent</div>
 <div style="background:blue;color:white;text-align:center">Correspondant aux tables présentent</div>
