@@ -1,7 +1,6 @@
 <?php
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/BanqueDAO.php';
 
-require_once dirname(dirname(__FILE__)) . '/DataObject/ClientDO.php';
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/ClientDAO.php';
 
 require_once dirname(dirname(__FILE__)) . '/DataObject/CompteClientDO.php';
@@ -60,9 +59,23 @@ echo "testing Transactions DO\n";
  * Test des DAO 
  */
 
+// Banque 
  echo "testing Banque DAO\n";
- banque_insert($Banque);
- var_dump(banque_find(1));
- banque_update(1, "test_update", 'test_update');
- var_dump(banque_find(1));
- banque_remove(1);
+ Banque_insert($Banque);
+ var_dump(Banque_find_by_id(1));
+ Banque_update(1, "test_update", 'test_update');
+ var_dump(Banque_find_by_id(1));
+ Banque_remove(1);
+ 
+ // Client
+ 
+ echo "testing Client DAO\n";
+ Client_insert($Client);
+ var_dump(Client_find_by_id(1));
+ Client_update(new Client(1
+                        , "test_update"
+                        , 'test_update'
+                        , new Datetime(date("m/d/Y"))
+                        , "maried"));
+ var_dump(Client_find_by_id(1));
+ Client_remove(1);
