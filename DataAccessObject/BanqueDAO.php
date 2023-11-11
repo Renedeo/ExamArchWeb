@@ -53,6 +53,13 @@ function banque_insert(Banque $elmt){
     }
 }
 
+/**
+ * Fonciton permettant de supprimer la banque 
+ * avec l'identifiant passer en argument 
+ *
+ * @param integer|null $id
+ * @return void
+ */
 function banque_remove(?int $id){
     try {
         global $pdo;
@@ -68,8 +75,16 @@ function banque_remove(?int $id){
         echo "REMOVE Error : ".$th->getMessage();
     }
 } 
-
-function banque_update($id, $nomination, $localisation){
+/**
+ * Permet de mettre à jour les informations d'une banque
+ * avec l'identifiant passer en argument 
+ *
+ * @param integer $id
+ * @param string|null $nomination
+ * @param string|null $localisation
+ * @return void
+ */
+function banque_update(int $id, ?string $nomination, ?string $localisation){
     try {
         global $pdo;
 
