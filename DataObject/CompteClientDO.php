@@ -21,7 +21,7 @@ class CompteClient{
     function __construct(int $id_compte =  null
                         , ?int $id_banque = null
                         , ?int $id_client = null
-                        , ?int $solde = null
+                        , ?int $solde = 0
                         , ?Datetime $date_creation = null
                         , ?Datetime $date_resiliation = null
                         , ?string $type_de_compte = null
@@ -75,11 +75,11 @@ class CompteClient{
         $this->solde= $solde;
     }
 
-    function setdata_de_creation($data_de_creation){
-        $this->date_de_creation = $data_de_creation;
+    function setdate_creation($data_creation){
+        $this->date_creation = $data_creation;
     }
-    function setdate_de_resiliation($date_de_resiliation){
-        $this->date_de_resiliation = $date_de_resiliation;
+    function setdate_resiliation($date_resiliation){
+        $this->date_resiliation = $date_resiliation;
     }
     function settype_de_compte($type_de_compte){
         $this->type_de_compte = $type_de_compte; 
