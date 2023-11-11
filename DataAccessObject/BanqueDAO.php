@@ -10,18 +10,20 @@ require_once dirname(dirname(__FILE__)) .'/DataAccessObject/ConnectionBD.php';
  * @param integer $id
  * @return void|Banque
  */
-function banque_find(int $id){
+function Banque_find_by_id(int $id){
     global $pdo;
     $request = "SELECT * FROM banque WHERE id_banque =". $id .";";
     $response = $pdo->query($request);
+    
     if($response->rowCount() == 0){
         echo "Aucun Utilisateur ne correspond à l'id ". $id ."\n";
         return null;
     }
     $row = $response->fetch(PDO::FETCH_ASSOC);
+    $response->closeCursor();
     return new Banque($row['id_banque']
-                    , $row['nom']
-                    , $row['localisation']);
+    , $row['nom']
+    , $row['localisation']);
 }
 
 /**
@@ -32,12 +34,12 @@ function banque_find(int $id){
  * @param string $localisation
  * @return void
  */
-function banque_insert(Banque $elmt){
+function Banque_insert(Banque $banque){
     try {
         global $pdo;
-        $id = $elmt->getid_banque();
-        $nomination = $elmt->getnomination();
-        $localisation = $elmt->getlocalisation();
+        $id = $banque->getid_banque();
+        $nomination = $banque->getnomination();
+        $localisation = $banque->getlocalisation();
 
         $request = "INSERT INTO banque(id_banque, nom, localisation) VALUES (:id, :nom, :localisation);";
         $stmt = $pdo->prepare($request);
@@ -46,8 +48,7 @@ function banque_insert(Banque $elmt){
         $stmt->bindParam("localisation", $localisation, PDO::PARAM_STR);
         $stmt->execute();
         
-        echo "Adding banque with nom \" ". $nomination .
-                " \" and  localisation \" ".$localisation."\" successed\n";;
+        echo "Adding Client with id ".$banque->getid_banque()." successed\n";;
     } catch (PDOException $th) {
         echo "INSERT Error : ".$th->getMessage();
     }
@@ -60,7 +61,7 @@ function banque_insert(Banque $elmt){
  * @param integer|null $id
  * @return void
  */
-function banque_remove(?int $id){
+function Banque_remove(?int $id){
     try {
         global $pdo;
         $request = "DELETE FROM banque 
@@ -84,7 +85,7 @@ function banque_remove(?int $id){
  * @param string|null $localisation
  * @return void
  */
-function banque_update(int $id, ?string $nomination, ?string $localisation){
+function Banque_update(int $id, ?string $nomination, ?string $localisation){
     try {
         global $pdo;
 
