@@ -56,3 +56,13 @@ $Transaction->setdate_de_transaction(new Datetime(date("m/d/y")));
 echo "testing Transactions DO\n";
 // var_dump($Transaction);
 
+/**
+ * Test des DAO 
+ */
+
+ echo "testing Banque DAO\n";
+ banque_insert($Banque);
+ var_dump(banque_find(1));
+ banque_update(1, "test_update", 'test_update');
+ var_dump(banque_find(1));
+ banque_remove(1);
