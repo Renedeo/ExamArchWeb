@@ -43,7 +43,7 @@ create table if not exists compte_client(
 	-- Mais la date de resiliation peut être à nulle 
 	-- tant que le client n'a pas résilié son compte
 		date_creation date not null default now(),
-		date_résiliation date,
+		date_resiliation date,
 		type_de_compte varchar(255)
 	);
 
