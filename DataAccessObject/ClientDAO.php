@@ -8,11 +8,13 @@ function Client_find_by_id($id) {
         global $pdo;
         $request = "SELECT * FROM Client WHERE id_client = $id;"; 
         $response = $pdo->query($request);
+        
         if ($response->rowCount() == 0) {
             echo"Aucun client avec l'id '$id'";
             return null;
         }
         $row = $response->fetch(PDO::FETCH_ASSOC);
+        $response->closeCursor();
         return new Client(
             $row["id_client"],
             $row["nom"],
@@ -48,7 +50,7 @@ function Client_insert(Client $client) {
         $stmt->execute();
         $stmt->closeCursor();
 
-        echo "Adding Client with id ".$client->getid_client()." successed\n";;
+        echo "Adding Client with id ".$client->getid_client()." successed\n";
     } catch (PDOException $th) {
         echo "Client INSERT ERROR : " . $th->getMessage();
     }
