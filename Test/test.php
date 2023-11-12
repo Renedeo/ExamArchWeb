@@ -47,7 +47,7 @@ var_dump($CompteClient);
 // Transactions
 $Transaction->setid_transaction(1);
 $Transaction->setid_compte_exp(1);
-$Transaction->setid_compte_dest(2);
+$Transaction->setid_compte_dest(1);
 $Transaction->setmontant(120);
 $Transaction->setmotif("Achat");
 $Transaction->setdate_de_transaction(new Datetime(date("m/d/y")));
@@ -102,3 +102,36 @@ echo "testing Transactions DO\n";
 // CompteClient_remove(1);
 // Banque_remove(1);
 // Client_remove(1);
+
+// Transactions
+
+echo "testing Transactions DAO\n";
+
+Banque_insert($Banque);
+Client_insert($Client);
+
+CompteClient_insert($CompteClient);
+$CompteClient->setid_compte(2);
+CompteClient_insert($CompteClient);
+
+$Transaction->setid_compte_dest(2);
+Transaction_insert($Transaction);
+
+var_dump(Transaction_find_by_id(1));
+
+Transaction_update(
+    new Transaction(
+        1, 2, 1, 20,
+        "compte_tiers",
+        date_create("19-10-2001")
+        )
+    );
+var_dump(Transaction_find_by_id(1));
+
+Transaction_remove(1);
+
+CompteClient_remove(1);
+CompteClient_remove(2);
+
+Banque_remove(1);
+Client_remove(1);
