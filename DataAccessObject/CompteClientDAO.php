@@ -3,8 +3,13 @@
 require_once dirname(dirname(__FILE__)) . '/DataObject/CompteClientDO.php';
 require_once dirname(dirname(__FILE__)) .'/DataAccessObject/ConnectionBD.php';
 
-
-function compteClient_find_by_id($id) {
+/**
+ * Renvoie le compte correspondant à l'id passer en argument
+ *
+ * @param integer $id
+ * @return CompteClient|void
+ */
+function compteClient_find_by_id(int $id) {
     try {
         global $pdo;
         $request = "SELECT * FROM compte_Client WHERE id_compte = $id";
@@ -27,7 +32,14 @@ function compteClient_find_by_id($id) {
         echo "CompteClient FIND ID ERROR : ".$th->getMessage();
     }
 }
-
+/**
+ * Insert un compte cient dans la table exambdgestionbanque.Compte_client
+ * 
+ * !! Attention la banque et le client doivent exister pour laa création du compte
+ * 
+ * @param CompteClient $compte
+ * @return void
+ */
 function CompteClient_insert(CompteClient $compte) {
     
     try {
@@ -71,7 +83,13 @@ function CompteClient_insert(CompteClient $compte) {
         echo "CompteClient INSERT ERROR : ".$th->getMessage();
     }
 }
-function CompteClient_remove($id) {
+/**
+ * Supprime le compte correspondant à l'id passer en argument
+ *
+ * @param integer $id
+ * @return void
+ */
+function CompteClient_remove(int $id) {
     
     try {
         global $pdo;
@@ -85,6 +103,15 @@ function CompteClient_remove($id) {
         echo "CompteClient REMOVE ERROR : ".$th->getMessage();
     }
 }
+
+/**
+ * Met à jour la table exambdgestionbanque.Compte_client
+ * en modifiant les informations du client associé à 
+ * l'id du compte passée en argument
+ *
+ * @param CompteClient $compte
+ * @return void
+ */
 function CompteClient_update(CompteClient $compte) {
     global $pdo;
         $request = "UPDATE Compte_Client 

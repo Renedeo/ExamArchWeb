@@ -2,8 +2,14 @@
 
 require_once dirname(dirname(__FILE__)) . '/DataObject/ClientDO.php';
 require_once dirname(dirname(__FILE__)) .'/DataAccessObject/ConnectionBD.php';
-
-function Client_find_by_id($id) {
+/**
+ * Renvoie le client correpondant à l'id 
+ * passer en argument
+ *
+ * @param integer $id
+ * @return Client|void
+ */
+function Client_find_by_id(int $id) {
     try {
         global $pdo;
         $request = "SELECT * FROM Client WHERE id_client = $id;"; 
@@ -28,6 +34,13 @@ function Client_find_by_id($id) {
     }
 }
 
+/**
+ * Insère un client sous format DO 
+ * dans la table exambdgestionbanque.Client
+ *
+ * @param Client $client
+ * @return void
+ */
 function Client_insert(Client $client) {
     try {
         global $pdo;
@@ -56,6 +69,13 @@ function Client_insert(Client $client) {
     }
 }
 
+/**
+ * Efface le client avec l'id correspondant
+ * passer en argument
+ *
+ * @param integer $id
+ * @return void
+ */
 function Client_remove(int $id) {
     try {
         global $pdo;
@@ -70,6 +90,14 @@ function Client_remove(int $id) {
     }
 }
 
+/**
+ * Mets à jour la table exambdgestionbanque.Client 
+ * En modifiant le client correpondant à l'id du client passer
+ * en argument 
+ *
+ * @param Client $client
+ * @return void
+ */
 function Client_update(Client $client) {
     try {
         global $pdo;

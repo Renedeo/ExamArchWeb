@@ -2,8 +2,14 @@
 
 require_once dirname(dirname(__FILE__)) . '/DataObject/TransactionDO.php';
 
-
-function Transaction_find_by_id($id) {
+/**
+ *  Renvoie la transaction correpondant à l'id 
+ * passer en argument
+ *
+ * @param integer $id
+ * @return Transaction|void
+ */
+function Transaction_find_by_id(int $id) {
     try {
         global $pdo;
         $request = "SELECT * FROM Transactions WHERE id_transactions = $id;";
@@ -25,6 +31,15 @@ function Transaction_find_by_id($id) {
         echo "Transactions FIND ID ERROR: " . $th->getMessage();
     }
 }
+
+/**
+ * Insert une transaction dans la table exambdgestionbanque.Transactions .
+ * 
+ * !!! Attention le compte des clients concernés par la transaction doivent etre des comptes existants 
+ *
+ * @param Transaction $transaction
+ * @return void
+ */
 function Transaction_insert(Transaction $transaction) {
     try {
         global $pdo;
@@ -64,7 +79,13 @@ function Transaction_insert(Transaction $transaction) {
         echo "Transactions INSERT ERROR : " . $th->getMessage();
     }
 }
-function Transaction_remove($id) {
+/**
+ * Supprime la transaction correspondant à l'id passer en argument
+ *
+ * @param integer $id
+ * @return void
+ */
+function Transaction_remove(int $id) {
     try {
         global $pdo;
         $request = "DELETE FROM Transactions WHERE id_transactions = $id;";
