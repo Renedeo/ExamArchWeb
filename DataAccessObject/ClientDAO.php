@@ -2,6 +2,50 @@
 
 require_once dirname(dirname(__FILE__)) . '/DataObject/ClientDO.php';
 require_once dirname(dirname(__FILE__)) .'/DataAccessObject/ConnectionBD.php';
+
+/**
+ * Renvoie une liste de tout les client de la table exambdgestionbanque.Clients
+ * Sinon renvoie une liste limité de client en fonction de la valeur passée en argument
+ * 
+ * @param integer|null $limit 
+ * @return array | void
+ */
+function find_All(int $limit=null){
+    try {
+        global $pdo;
+        $res = array();
+        if ($limit !== null){
+            $request = "SELECT * FROM Client LIMIT $limit"; 
+        }
+        else {
+            $request = "SELECT * FROM Client"; 
+        }
+        
+        $response = $pdo->query($request);
+        
+        if ($response->rowCount() == 0) {
+            // echo"Aucun client avec l'id '$id'";
+            return null;
+        }
+        while($row = $response->fetch(PDO::FETCH_ASSOC)){
+            $client = new Client(
+                $row["id_client"],
+                $row["nom"],
+                $row["prenom"],
+                new DateTime($row["date_de_naissance"]),
+                $row["situation_maritale"]
+            );
+            $res[] = $client;
+        }
+        $response->closeCursor();
+        
+        return $res;
+    
+    } catch (PDOException $th) {
+        echo "Client FIND ID ERROR" . $th->getMessage();
+    }
+} 
+
 /**
  * Renvoie le client correpondant à l'id 
  * passer en argument
