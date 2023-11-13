@@ -16,7 +16,7 @@ $CompteClient = new CompteClient();
 $Transaction = new Transaction();
 
 // Banque
-echo "Testing Banque DO ... ----------------------------------------------------------------------\n";
+// echo "Testing Banque DO ... ----------------------------------------------------------------------\n";
 $Banque->setid_banque(1);
 $Banque->setnomination("test");
 $Banque->setlocalisation('test');
@@ -24,8 +24,8 @@ $Banque->setlocalisation('test');
 
 // Client
 
-echo "--------------------------------------------------------------------------------------";
-echo "testing Client DO----------------------------------------------------------------------\n";
+// echo "--------------------------------------------------------------------------------------";
+// echo "testing Client DO----------------------------------------------------------------------\n";
 $Client->setid_client(1);
 $Client->setnom("test");
 $Client->setprenom("test");
@@ -34,8 +34,8 @@ $Client->setsituation_maritale("test");
 // var_dump($Client);
 
 // CompteClient 
-echo "--------------------------------------------------------------------------------------";
-echo "testing CompteClient DO ----------------------------------------------------------------------\n";
+// echo "--------------------------------------------------------------------------------------";
+// echo "testing CompteClient DO ----------------------------------------------------------------------\n";
 $CompteClient->setid_compte(1);
 $CompteClient->setid_banque(1);
 $CompteClient->setid_client(1);
@@ -43,11 +43,11 @@ $CompteClient->setdate_creation(new Datetime(date("m/d/y")));
 $CompteClient->setdate_resiliation(new Datetime(date("m/d/y")));
 $CompteClient->settype_de_compte("compte");
 // var_dump($CompteClient);
-var_dump($CompteClient);
+// var_dump($CompteClient);
 
 // Transactions
-echo "--------------------------------------------------------------------------------------";
-echo "testing Transactions DO ---------------------------------------------------------------------- \n";
+// echo "--------------------------------------------------------------------------------------";
+// echo "testing Transactions DO ---------------------------------------------------------------------- \n";
 $Transaction->setid_transaction(1);
 $Transaction->setid_compte_exp(1);
 $Transaction->setid_compte_dest(1);
@@ -108,37 +108,37 @@ $Transaction->setdate_de_transaction(new Datetime(date("m/d/y")));
 // Banque_remove(1);
 // Client_remove(1);
 
-// Transactions
+// // Transactions
 
-echo "--------------------------------------------------------------------------------------";
-echo "testing Transactions DAO ----------------------------------------------------------------------\n";
+// echo "--------------------------------------------------------------------------------------";
+// echo "testing Transactions DAO ----------------------------------------------------------------------\n";
 
-Banque_insert($Banque);
-Client_insert($Client);
+// Banque_insert($Banque);
+// Client_insert($Client);
 
-CompteClient_insert($CompteClient);
-$CompteClient->setid_compte(2);
-CompteClient_insert($CompteClient);
+// CompteClient_insert($CompteClient);
+// $CompteClient->setid_compte(2);
+// CompteClient_insert($CompteClient);
 
-$Transaction->setid_compte_dest(2);
-Transaction_insert($Transaction);
+// $Transaction->setid_compte_dest(2);
+// Transaction_insert($Transaction);
 
-var_dump(Transaction_find_by_id(1));
+// var_dump(Transaction_find_by_id(1));
 
-Transaction_update(
-    new Transaction(
-        1, 2, 1, 20,
-        "compte_tiers",
-        date_create("19-10-2001")
-        )
-    );
-var_dump(Transaction_find_by_id(1));
+// Transaction_update(
+//     new Transaction(
+//         1, 2, 1, 20,
+//         "compte_tiers",
+//         date_create("19-10-2001")
+//         )
+//     );
+// var_dump(Transaction_find_by_id(1));
 
-Transaction_remove(1);
+// Transaction_remove(1);
 
-CompteClient_remove(1);
-CompteClient_remove(2);
+// CompteClient_remove(1);
+// CompteClient_remove(2);
 
-Banque_remove(1);
-Client_remove(1);
-echo "--------------------------------------------------------------------------------------";
+// Banque_remove(1);
+// Client_remove(1);
+// echo "--------------------------------------------------------------------------------------";
