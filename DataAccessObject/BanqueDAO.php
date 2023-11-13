@@ -16,7 +16,7 @@ function Banque_find_by_id(int $id){
     $response = $pdo->query($request);
     
     if($response->rowCount() == 0){
-        echo "Aucun Utilisateur ne correspond à l'id ". $id ."\n";
+        // echo "Aucun Utilisateur ne correspond à l'id ". $id ."\n";
         return null;
     }
     $row = $response->fetch(PDO::FETCH_ASSOC);
@@ -48,7 +48,7 @@ function Banque_insert(Banque $banque){
         $stmt->bindParam("localisation", $localisation, PDO::PARAM_STR);
         $stmt->execute();
         
-        echo "Adding Client with id ".$banque->getid_banque()." successed\n";;
+        // echo "Adding Client with id ".$banque->getid_banque()." successed\n";;
     } catch (PDOException $th) {
         echo "INSERT Error : ".$th->getMessage();
     }
@@ -71,7 +71,7 @@ function Banque_remove(?int $id){
         $stmt->bindParam("id", $id, PDO::PARAM_INT);
         $stmt->execute();
 
-        echo "Banque with id_banque ".$id." removed successfully\n";
+        // echo "Banque with id_banque ".$id." removed successfully\n";
     } catch (PDOException $th) {
         echo "REMOVE Error : ".$th->getMessage();
     }
@@ -100,7 +100,7 @@ function Banque_update(int $id, ?string $nomination, ?string $localisation){
         $stmt->bindParam("id", $id, PDO::PARAM_INT);
         $stmt->execute();
 
-        echo "Banque with id_banque ".$id." updated successfully\n";
+        // echo "Banque with id_banque ".$id." updated successfully\n";
     } catch (PDOException $th) {
         echo "UPDATE Error :".$th->getMessage();
     }

@@ -16,7 +16,7 @@ function Client_find_by_id(int $id) {
         $response = $pdo->query($request);
         
         if ($response->rowCount() == 0) {
-            echo"Aucun client avec l'id '$id'";
+            // echo"Aucun client avec l'id '$id'";
             return null;
         }
         $row = $response->fetch(PDO::FETCH_ASSOC);
@@ -63,7 +63,7 @@ function Client_insert(Client $client) {
         $stmt->execute();
         $stmt->closeCursor();
 
-        echo "Adding Client with id ".$client->getid_client()." successed\n";
+        // echo "Adding Client with id ".$client->getid_client()." successed\n";
     } catch (PDOException $th) {
         echo "Client INSERT ERROR : " . $th->getMessage();
     }
@@ -84,7 +84,7 @@ function Client_remove(int $id) {
         $stmt->bindParam("id", $id, PDO::PARAM_INT);
         $stmt->execute();
         $stmt->closeCursor();
-        echo "Removing Client with id $id successed\n";;
+        // echo "Removing Client with id $id successed\n";;
     } catch (PDOException $th) {
         echo "Client INSERT ERROR : " . $th->getMessage();
     }
@@ -124,7 +124,7 @@ function Client_update(Client $client) {
         
         $stmt->execute();
         $stmt->closeCursor();
-        echo "Updating Client with id ".$client->getid_client()." successed\n";;
+        // echo "Updating Client with id ".$client->getid_client()." successed\n";;
         
     } catch (PDOException $th) {
         echo "Client UPDATE ERROR : ". $th->getMessage();

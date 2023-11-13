@@ -9,24 +9,32 @@ require_once dirname(dirname(__FILE__)) . '/DataObject/TransactionDO.php';
  * @param integer $id
  * @return Transaction|void
  */
-function Transaction_find_by_id(int $id) {
+function Transaction_find_by_id(int $id)
+{
     try {
         global $pdo;
         $request = "SELECT * FROM Transactions WHERE id_transactions = $id;";
         $reponse = $pdo->query($request);
         if ($reponse->rowCount() == 0) {
-            echo "Aucune transaction avec l'id $id";
+            // echo "Aucune transaction avec l'id $id";
             return null;
-        } 
+        }
         $row = $reponse->fetch(PDO::FETCH_ASSOC);
-        echo "Finding account with id $id successed\n";
-        return new Transaction($row["id_transactions"]
-                            , $row["id_compte_exp"]
-                            , $row["id_compte_dest"]
-                            , $row["montant"]
-                            , $row["motif"]
-                            , new Datetime($row["date_de_transaction"]));
-        
+        // echo "Finding account with id $id successed\n";
+        return new Transaction(
+            $row["id_transactions"]
+            ,
+            $row["id_compte_exp"]
+            ,
+            $row["id_compte_dest"]
+            ,
+            $row["montant"]
+            ,
+            $row["motif"]
+            ,
+            new Datetime($row["date_de_transaction"])
+        );
+
     } catch (PDOException $th) {
         echo "Transactions FIND ID ERROR: " . $th->getMessage();
     }
@@ -40,7 +48,8 @@ function Transaction_find_by_id(int $id) {
  * @param Transaction $transaction
  * @return void
  */
-function Transaction_insert(Transaction $transaction) {
+function Transaction_insert(Transaction $transaction)
+{
     try {
         global $pdo;
         $request = "INSERT INTO Transactions(id_transactions
@@ -73,7 +82,7 @@ function Transaction_insert(Transaction $transaction) {
 
         $stmt->execute();
         $stmt->closeCursor();
-        echo "Adding account with id $id_transactions successed\n";
+        // echo "Adding account with id $id_transactions successed\n";
 
     } catch (PDOException $th) {
         echo "Transactions INSERT ERROR : " . $th->getMessage();
@@ -85,18 +94,20 @@ function Transaction_insert(Transaction $transaction) {
  * @param integer $id
  * @return void
  */
-function Transaction_remove(int $id) {
+function Transaction_remove(int $id)
+{
     try {
         global $pdo;
         $request = "DELETE FROM Transactions WHERE id_transactions = $id;";
         $response = $pdo->query($request);
         $response->closeCursor();
-        echo "Removing account with id $id successed\n";
+        // echo "Removing account with id $id successed\n";
     } catch (PDOException $th) {
         echo "Transactions REMOVE ERROR: " . $th->getMessage();
     }
 }
-function Transaction_update(Transaction $transaction) {
+function Transaction_update(Transaction $transaction)
+{
     try {
         global $pdo;
         $request = "UPDATE Transactions
@@ -126,8 +137,8 @@ function Transaction_update(Transaction $transaction) {
         $stmt->execute();
         $stmt->closeCursor();
 
-        echo "Updating account with id $id_transactions successed\n";
-        
+        // echo "Updating account with id $id_transactions successed\n";
+
     } catch (PDOException $th) {
         echo "Transactions UPDATE ERROR: " . $th->getMessage();
     }
