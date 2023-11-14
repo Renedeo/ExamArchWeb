@@ -122,12 +122,36 @@ div_section = Array.from(
 // observer.observe(div_section[0], config_mutation);
 
 
+function hide_section(section, id) {
+    div_section = Array.from(
+        document.getElementsByClassName(
+            config["general"]["div_sectionDefaultClassName"]
+        )
+    );
+    div_section.forEach(element => {
+        if (element.id != id) {
+            element.style.backgroundColor =
+                config["general"]["div_sectionDefault"];
+            element.style.fontWeight = 'normal';
+
+            element.firstChild.nextSibling.style.transform = "rotate(180deg)";
+
+            table_container = element.querySelector(".table-container");
+            table_container.style.display = "none"
+        }
+
+    });
+}
+
+
+
+
 div_section.forEach((element) => {
     element.addEventListener("click", function (event) {
         if (
             element.style.backgroundColor == config["general"]["div_sectionDefault"]
         ) {
-            // hide_section(div_section, element.id)
+            hide_section(div_section, element.id)
             element.style.backgroundColor = config[element.id]["background-color"];
             element.style.fontWeight = "900";
             element.firstChild.nextSibling.style.transform = 'rotate(0deg)';
