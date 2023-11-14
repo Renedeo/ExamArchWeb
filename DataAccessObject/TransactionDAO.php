@@ -2,6 +2,12 @@
 
 require_once dirname(dirname(__FILE__)) . '/DataObject/TransactionDO.php';
 
+/**
+ * Renvoie une liste de DO des transactions de la table exambdgestionbanque.Transactions
+ *
+ * @param integer|null $limit
+ * @return array | void
+ */
 function Transaction_find_All(?int $limit = null)
 {
     try {
@@ -16,7 +22,6 @@ function Transaction_find_All(?int $limit = null)
         $response = $pdo->query($request);
 
         if ($response->rowCount() == 0) {
-            // echo"Aucun client avec l'id '$id'";
             return null;
         }
         while ($row = $response->fetch(PDO::FETCH_ASSOC)) {
@@ -53,11 +58,9 @@ function Transaction_find_by_id(int $id)
         $request = "SELECT * FROM Transactions WHERE id_transactions = $id;";
         $reponse = $pdo->query($request);
         if ($reponse->rowCount() == 0) {
-            // echo "Aucune transaction avec l'id $id";
             return null;
         }
         $row = $reponse->fetch(PDO::FETCH_ASSOC);
-        // echo "Finding account with id $id successed\n";
         return new Transaction(
             $row["id_transactions"]
             ,
@@ -119,7 +122,6 @@ function Transaction_insert(Transaction $transaction)
 
         $stmt->execute();
         $stmt->closeCursor();
-        // echo "Adding account with id $id_transactions successed\n";
 
     } catch (PDOException $th) {
         echo "Transactions INSERT ERROR : " . $th->getMessage();
@@ -138,7 +140,6 @@ function Transaction_remove(int $id)
         $request = "DELETE FROM Transactions WHERE id_transactions = $id;";
         $response = $pdo->query($request);
         $response->closeCursor();
-        // echo "Removing account with id $id successed\n";
     } catch (PDOException $th) {
         echo "Transactions REMOVE ERROR: " . $th->getMessage();
     }
@@ -173,8 +174,6 @@ function Transaction_update(Transaction $transaction)
 
         $stmt->execute();
         $stmt->closeCursor();
-
-        // echo "Updating account with id $id_transactions successed\n";
 
     } catch (PDOException $th) {
         echo "Transactions UPDATE ERROR: " . $th->getMessage();

@@ -1,4 +1,12 @@
 
+/**
+ * Céer une division contenant une table dans la page html
+ * en lui assignant la classe passer en argument avec le format à la 'table-'+classe_arg
+ * 
+ * @param {object} responseText Reponse xhr
+ * @param {object} div Element d'insertion de la table 
+ * @param {string} table_class classe à attribuer à la table
+ */
 function table_display_request(responseText, div, table_class="") {
     let tableContainer = document.createElement('div');
     tableContainer.classList.add('table-container');

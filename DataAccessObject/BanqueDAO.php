@@ -3,6 +3,13 @@
 require_once dirname(dirname(__FILE__)) . '/DataObject/BanqueDO.php';
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/ConnectionBD.php';
 
+/**
+ * Renvoie une liste d'éléments de la table Banque sous forme de liste exambdgestionbanque.BanqueDO
+ *
+ * @param integer|null $limit
+ * @return array|null
+ */
+
 function Banque_find_all(?int $limit = null)
 {
     try {
@@ -17,7 +24,6 @@ function Banque_find_all(?int $limit = null)
         $response = $pdo->query($request);
 
         if ($response->rowCount() == 0) {
-            // echo"Aucun client avec l'id '$id'";
             return null;
         }
         while ($row = $response->fetch(PDO::FETCH_ASSOC)) {
@@ -36,9 +42,9 @@ function Banque_find_all(?int $limit = null)
         echo "Banque FIND ALL ERROR" . $th->getMessage();
     }
 }
+
 /**
- * Renvoie l'ojet DO banque de l'individue 
- * avec l'id corresdant
+ * Renvoie l'objet DO de la banque correspondant à l'id fourni
  *
  * @param integer $id
  * @return void|Banque
@@ -50,26 +56,21 @@ function Banque_find_by_id(int $id)
     $response = $pdo->query($request);
 
     if ($response->rowCount() == 0) {
-        // echo "Aucun Utilisateur ne correspond à l'id ". $id ."\n";
         return null;
     }
     $row = $response->fetch(PDO::FETCH_ASSOC);
     $response->closeCursor();
     return new Banque(
-        $row['id_banque']
-        ,
-        $row['nom']
-        ,
+        $row['id_banque'],
+        $row['nom'],
         $row['localisation']
     );
 }
 
 /**
- * Cette fonction permet d'inserer 
- * un individu DO dans la table  
+ * Cette fonction permet d'insérer une banque DO dans la table
  *
- * @param string $nomination
- * @param string $localisation
+ * @param Banque $banque
  * @return void
  */
 function Banque_insert(Banque $banque)
@@ -82,20 +83,18 @@ function Banque_insert(Banque $banque)
 
         $request = "INSERT INTO banque(id_banque, nom, localisation) VALUES (:id, :nom, :localisation);";
         $stmt = $pdo->prepare($request);
-        $stmt->bindParam("id", $id, PDO::PARAM_INT);
-        $stmt->bindParam("nom", $nomination, PDO::PARAM_STR);
-        $stmt->bindParam("localisation", $localisation, PDO::PARAM_STR);
+        $stmt->bindParam(":id", $id, PDO::PARAM_INT);
+        $stmt->bindParam(":nom", $nomination, PDO::PARAM_STR);
+        $stmt->bindParam(":localisation", $localisation, PDO::PARAM_STR);
         $stmt->execute();
 
-        // echo "Adding Client with id ".$banque->getid_banque()." successed\n";;
     } catch (PDOException $th) {
-        echo "INSERT Error : " . $th->getMessage();
+        echo "Erreur d'INSERT : " . $th->getMessage();
     }
 }
 
 /**
- * Fonciton permettant de supprimer la banque 
- * avec l'identifiant passer en argument 
+ * Fonction permettant de supprimer la banque avec l'identifiant fourni en argument
  *
  * @param integer|null $id
  * @return void
@@ -108,17 +107,16 @@ function Banque_remove(?int $id)
                     WHERE id_banque = :id";
 
         $stmt = $pdo->prepare($request);
-        $stmt->bindParam("id", $id, PDO::PARAM_INT);
+        $stmt->bindParam(":id", $id, PDO::PARAM_INT);
         $stmt->execute();
 
-        // echo "Banque with id_banque ".$id." removed successfully\n";
     } catch (PDOException $th) {
-        echo "REMOVE Error : " . $th->getMessage();
+        echo "Erreur de SUPPRESSION : " . $th->getMessage();
     }
 }
+
 /**
- * Permet de mettre à jour les informations d'une banque
- * avec l'identifiant passer en argument 
+ * Permet de mettre à jour les informations d'une banque avec l'identifiant fourni en argument
  *
  * @param integer $id
  * @param string|null $nomination
@@ -136,13 +134,12 @@ function Banque_update(int $id, ?string $nomination, ?string $localisation)
                     WHERE id_banque=:id;";
 
         $stmt = $pdo->prepare($request);
-        $stmt->bindParam("nom", $nomination, PDO::PARAM_STR);
-        $stmt->bindParam("localisation", $localisation, PDO::PARAM_STR);
-        $stmt->bindParam("id", $id, PDO::PARAM_INT);
+        $stmt->bindParam(":nom", $nomination, PDO::PARAM_STR);
+        $stmt->bindParam(":localisation", $localisation, PDO::PARAM_STR);
+        $stmt->bindParam(":id", $id, PDO::PARAM_INT);
         $stmt->execute();
 
-        // echo "Banque with id_banque ".$id." updated successfully\n";
     } catch (PDOException $th) {
-        echo "UPDATE Error :" . $th->getMessage();
+        echo "Erreur de MISE À JOUR : " . $th->getMessage();
     }
 }

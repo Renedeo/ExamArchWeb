@@ -3,6 +3,12 @@
 require_once dirname(dirname(__FILE__)) . '/DataObject/CompteClientDO.php';
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/ConnectionBD.php';
 
+/**
+ * Renvoie une liste de DO des comptes clients de la table exambdgestionbanque.compte_client
+ *
+ * @param integer|null $limit
+ * @return array | void
+ */
 function CompteClient_find_All(?int $limit = null)
 {
     try {
@@ -17,7 +23,6 @@ function CompteClient_find_All(?int $limit = null)
         $response = $pdo->query($request);
 
         if ($response->rowCount() == 0) {
-            // echo"Aucun client avec l'id '$id'";
             return null;
         }
         while ($row = $response->fetch(PDO::FETCH_ASSOC)) {
@@ -42,47 +47,40 @@ function CompteClient_find_All(?int $limit = null)
 }
 
 /**
- * Renvoie le compte correspondant à l'id passer en argument
+ * Renvoie le compte correspondant à l'id passé en argument
  *
  * @param integer $id
  * @return CompteClient|void
  */
-function compteClient_find_by_id(int $id)
+function CompteClient_find_by_id(int $id)
 {
     try {
         global $pdo;
-        $request = "SELECT * FROM compte_Client WHERE id_compte = $id";
+        $request = "SELECT * FROM compte_client WHERE id_compte = $id";
         $stmt = $pdo->query($request);
 
         if ($stmt->rowCount() == 0) {
-            // echo"Aucun compte client avec l'id '$id' \n";
             return null;
         }
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
         $stmt->closeCursor();
         return new CompteClient(
-            $row["id_compte"]
-            ,
-            $row["id_banque"]
-            ,
-            $row["id_client"]
-            ,
-            $row["solde"]
-            ,
-            new Datetime($row["date_creation"])
-            ,
-            new Datetime($row["date_resiliation"])
-            ,
+            $row["id_compte"],
+            $row["id_banque"],
+            $row["id_client"],
+            $row["solde"],
+            new DateTime($row["date_creation"]),
+            new DateTime($row["date_resiliation"]),
             $row["type_de_compte"]
         );
     } catch (PDOException $th) {
         echo "CompteClient FIND ID ERROR : " . $th->getMessage();
     }
 }
+
 /**
- * Insert un compte cient dans la table exambdgestionbanque.Compte_client
- * 
- * !! Attention la banque et le client doivent exister pour laa création du compte
+ * Insérer un compte client dans la table exambdgestionbanque.Compte_client * 
+ * !! Attention, la banque et le client doivent exister pour la création du compte
  * 
  * @param CompteClient $compte
  * @return void
@@ -126,13 +124,13 @@ function CompteClient_insert(CompteClient $compte)
         $stmt->execute();
         $stmt->closeCursor();
 
-        // echo "Adding account with id ".$compte->getid_compte()." successed\n";
     } catch (PDOException $th) {
         echo "CompteClient INSERT ERROR : " . $th->getMessage();
     }
 }
+
 /**
- * Supprime le compte correspondant à l'id passer en argument
+ * Supprime le compte correspondant à l'id passé en argument
  *
  * @param integer $id
  * @return void
@@ -147,7 +145,6 @@ function CompteClient_remove(int $id)
         $stmt->execute();
         $stmt->closeCursor();
 
-        // echo "Removing account with id $id succesed\n";
     } catch (PDOException $th) {
         echo "CompteClient REMOVE ERROR : " . $th->getMessage();
     }
@@ -156,7 +153,7 @@ function CompteClient_remove(int $id)
 /**
  * Met à jour la table exambdgestionbanque.Compte_client
  * en modifiant les informations du client associé à 
- * l'id du compte passée en argument
+ * l'id du compte passé en argument
  *
  * @param CompteClient $compte
  * @return void
@@ -184,9 +181,9 @@ function CompteClient_update(CompteClient $compte)
         $date_resiliation = $compte->getdate_resiliation()->format('Y-m-d');
         $type_de_compte = $compte->gettype_de_compte();
     
-        $stmt->bindParam("id_client", $id_client, PDO::PARAM_INT);
         $stmt->bindParam("id_compte", $id_compte, PDO::PARAM_INT);
         $stmt->bindParam("id_banque", $id_banque, PDO::PARAM_INT);
+        $stmt->bindParam("id_client", $id_client, PDO::PARAM_INT);
         $stmt->bindParam("solde", $solde, PDO::PARAM_INT);
         $stmt->bindParam("date_creation", $date_creation, PDO::PARAM_STR);
         $stmt->bindParam("date_resiliation", $date_resiliation, PDO::PARAM_STR);
@@ -194,7 +191,6 @@ function CompteClient_update(CompteClient $compte)
     
         $stmt->execute();
         $stmt->closeCursor();
-        // echo "Updating account with id ".$compte->getid_compte()." succesed\n";
         
     } catch (PDOException $th) {
         echo "CompteClient UPDATE ERROR : " . $th->getMessage();

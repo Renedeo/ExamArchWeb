@@ -22,26 +22,26 @@ arrow = document.createElement("span");
 arrow.innerHTML = "&#9660";
 arrow.className = "arrow-down";
 
-// Création des différentes categorie de la page
+// Création des différentes catégories de la page
 div_Clients = document.createElement("div");
 div_Banques = document.createElement("div");
 div_ComptesClient = document.createElement("div");
 div_Transactions = document.createElement("div");
 
-// Ajout de texte dans les différents elements initial
+// Ajout de texte dans les différents éléments initiaux
 h1_gestion_banque.appendChild(document.createTextNode("Gestion Banque"));
 div_Banques.appendChild(document.createTextNode("Banques"));
 div_Clients.appendChild(document.createTextNode("Clients"));
 div_ComptesClient.appendChild(document.createTextNode("All accounts"));
 div_Transactions.appendChild(document.createTextNode("All Transactions"));
 
-// Ajout des arrow
+// Ajout des flèches
 div_Clients.appendChild(arrow);
 div_Banques.appendChild(arrow.cloneNode(true));
 div_ComptesClient.appendChild(arrow.cloneNode(true));
 div_Transactions.appendChild(arrow.cloneNode(true));
 
-// Definition des identifiants
+// Définition des identifiants
 div_selection_table.id = "div_selection";
 div_Clients.id = "clients";
 div_Banques.id = "banque";
@@ -79,13 +79,13 @@ let config = {
     },
 };
 
-// Definition des classes
+// Définition des classes
 div_Clients.className = config["general"]["div_sectionDefaultClassName"];
 div_Banques.className = config["general"]["div_sectionDefaultClassName"];
 div_ComptesClient.className = config["general"]["div_sectionDefaultClassName"];
 div_Transactions.className = config["general"]["div_sectionDefaultClassName"];
 
-// Initialisation Background color
+// Initialisation de la couleur de fond
 div_selection_table.style.backgroundColor =
     config["general"]["backgroundColorDefault"];
 div_Clients.style.backgroundColor = config["general"]["div_sectionDefault"];
@@ -95,13 +95,19 @@ div_ComptesClient.style.backgroundColor =
 div_Transactions.style.backgroundColor =
     config["general"]["div_sectionDefault"];
 
-// Liste des différentes sections de la gestion des banque
+// Liste des différentes sections de la gestion des banques
 div_section = Array.from(
     document.getElementsByClassName(
         config["general"]["div_sectionDefaultClassName"]
     )
 );
 
+/**
+ * Cache la table précédentes lors du déroulement d'un autre
+ * 
+ * @param {object} section 
+ * @param {integer} id 
+ */
 function hide_section(section, id) {
     div_section = Array.from(
         document.getElementsByClassName(

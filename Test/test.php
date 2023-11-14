@@ -1,60 +1,47 @@
 <?php
+
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/BanqueDAO.php';
-
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/ClientDAO.php';
-
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/CompteClientDAO.php';
-
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/TransactionDAO.php';
 
 /**
  * Test des DO 
  */
+
 $Banque = new Banque();
 $Client = new Client();
 $CompteClient = new CompteClient();
 $Transaction = new Transaction();
 
 // Banque
-// echo "Testing Banque DO ... ----------------------------------------------------------------------\n";
 $Banque->setid_banque(1);
 $Banque->setnomination("test");
 $Banque->setlocalisation('test');
-// var_dump($Banque);
-var_dump(json_encode([array("test"=>"")]));
-// Client
+var_dump(json_encode([array("test" => "")]));
 
-// echo "--------------------------------------------------------------------------------------";
-// echo "testing Client DO----------------------------------------------------------------------\n";
+// Client
 $Client->setid_client(1);
 $Client->setnom("test");
 $Client->setprenom("test");
-$Client->setdate_de_naissance(new Datetime(date("m/d/y")));
+$Client->setdate_de_naissance(new DateTime(date("m/d/y")));
 $Client->setsituation_maritale("test");
-// var_dump($Client);
 
 // CompteClient 
-// echo "--------------------------------------------------------------------------------------";
-// echo "testing CompteClient DO ----------------------------------------------------------------------\n";
 $CompteClient->setid_compte(1);
 $CompteClient->setid_banque(1);
 $CompteClient->setid_client(1);
-$CompteClient->setdate_creation(new Datetime(date("m/d/y")));
-$CompteClient->setdate_resiliation(new Datetime(date("m/d/y")));
+$CompteClient->setdate_creation(new DateTime(date("m/d/y")));
+$CompteClient->setdate_resiliation(new DateTime(date("m/d/y")));
 $CompteClient->settype_de_compte("compte");
-// var_dump($CompteClient);
-// var_dump($CompteClient);
 
 // Transactions
-// echo "--------------------------------------------------------------------------------------";
-// echo "testing Transactions DO ---------------------------------------------------------------------- \n";
 $Transaction->setid_transaction(1);
 $Transaction->setid_compte_exp(1);
 $Transaction->setid_compte_dest(1);
 $Transaction->setmontant(120);
 $Transaction->setmotif("Achat");
-$Transaction->setdate_de_transaction(new Datetime(date("m/d/y")));
-// var_dump($Transaction);
+$Transaction->setdate_de_transaction(new DateTime(date("m/d/y")));
 
 /**
  * Test des DAO 
@@ -62,24 +49,23 @@ $Transaction->setdate_de_transaction(new Datetime(date("m/d/y")));
 
 // // Banque 
 // echo "--------------------------------------------------------------------------------------";
-// echo "testing Banque DAO ----------------------------------------------------------------------\n";
+// echo "Testing Banque DAO ----------------------------------------------------------------------\n";
 // Banque_insert($Banque);
 // var_dump(Banque_find_by_id(1));
 // Banque_update(1, "test_update", 'test_update');
 // var_dump(Banque_find_by_id(1));
 // Banque_remove(1);
 
-// // Client
-
+// Client
 // echo "--------------------------------------------------------------------------------------";
-// echo "testing Client DAO ----------------------------------------------------------------------\n";
+// echo "Testing Client DAO ----------------------------------------------------------------------\n";
 // Client_insert($Client);
 // var_dump(Client_find_by_id(1));
 // Client_update(
 //     new Client(1
 //         ,"test_update"
 //         ,'test_update'
-//         ,new Datetime(date("m/d/Y"))
+//         ,new DateTime(date("m/d/Y"))
 //         ,"maried"
 //     )
 // );
@@ -87,9 +73,8 @@ $Transaction->setdate_de_transaction(new Datetime(date("m/d/y")));
 // Client_remove(1);
 
 // // CompteClient
-
 // echo "--------------------------------------------------------------------------------------";
-// echo "testing CompteClient DAO ----------------------------------------------------------------------\n";
+// echo "Testing CompteClient DAO ----------------------------------------------------------------------\n";
 
 // Banque_insert($Banque);
 // Client_insert($Client);
@@ -109,13 +94,11 @@ $Transaction->setdate_de_transaction(new Datetime(date("m/d/y")));
 // Client_remove(1);
 
 // // Transactions
-
 // echo "--------------------------------------------------------------------------------------";
-// echo "testing Transactions DAO ----------------------------------------------------------------------\n";
+// echo "Testing Transactions DAO ----------------------------------------------------------------------\n";
 
 // Banque_insert($Banque);
 // Client_insert($Client);
-
 // CompteClient_insert($CompteClient);
 // $CompteClient->setid_compte(2);
 // CompteClient_insert($CompteClient);
@@ -141,4 +124,5 @@ $Transaction->setdate_de_transaction(new Datetime(date("m/d/y")));
 
 // Banque_remove(1);
 // Client_remove(1);
+
 // echo "--------------------------------------------------------------------------------------";
