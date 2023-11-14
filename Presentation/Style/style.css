@@ -26,6 +26,7 @@ body{
     transform-origin: center;
     transform: scaleY(.6);
     transition: all .5s;
+    transform: rotate(180deg) ;
 }
 
 .sous_group_div_selection:hover .su{ 
@@ -34,11 +35,11 @@ body{
 } 
 
 .table-container{
+    font-size: x-small;
     margin: auto;
     width: -moz-fit-content;
     margin: auto;
     width: fit-content;
-    
-
+    display: none ;
 }
 

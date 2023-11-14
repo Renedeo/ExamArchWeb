@@ -21,7 +21,7 @@ $Banque->setid_banque(1);
 $Banque->setnomination("test");
 $Banque->setlocalisation('test');
 // var_dump($Banque);
-
+var_dump(json_encode([array("test"=>"")]));
 // Client
 
 // echo "--------------------------------------------------------------------------------------";
