@@ -12,5 +12,10 @@ if ($liste_DO){
         $liste_DO[$key] = CompteClientDO_to_BO($DO);
     }
     echo json_encode($liste_DO);
+
 }
+else{
+    echo json_encode(array("Aucun compte trouver dans la table compte_client"=> ""));
+}
+
 
