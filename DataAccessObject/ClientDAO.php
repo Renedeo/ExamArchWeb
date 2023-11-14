@@ -42,7 +42,7 @@ function Client_find_All(int $limit=null){
         return $res;
     
     } catch (PDOException $th) {
-        echo "Client FIND ID ERROR" . $th->getMessage();
+        echo "Client FIND ALL ERROR" . $th->getMessage();
     }
 } 
 

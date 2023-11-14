@@ -1,11 +1,12 @@
 
-function table_display_request(responseText, div) {
+function table_display_request(responseText, div, table_class="") {
     let tableContainer = document.createElement('div');
-    let JSON_res = JSON.parse(xhr.responseText);
+    tableContainer.classList.add('table-container');
+    let JSON_res = JSON.parse(responseText);
 
     // Commencement de la table
     let table = document.createElement('table');
-    table.classList.add('table', 'table-client');
+    table.classList.add('table', 'table-' + table_class);
 
     // Definition de la ligne d'en-tête
     let thead = document.createElement('thead');

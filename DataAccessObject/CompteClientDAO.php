@@ -3,6 +3,44 @@
 require_once dirname(dirname(__FILE__)) . '/DataObject/CompteClientDO.php';
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/ConnectionBD.php';
 
+function CompteClient_find_All(?int $limit = null)
+{
+    try {
+        global $pdo;
+        $res = array();
+        if ($limit !== null) {
+            $request = "SELECT * FROM compte_client LIMIT $limit;";
+        } else {
+            $request = "SELECT * FROM compte_client;";
+        }
+
+        $response = $pdo->query($request);
+
+        if ($response->rowCount() == 0) {
+            // echo"Aucun client avec l'id '$id'";
+            return null;
+        }
+        while ($row = $response->fetch(PDO::FETCH_ASSOC)) {
+            $compte = new CompteClient(
+                $row["id_compte"],
+                $row["id_banque"],
+                $row["id_client"],
+                $row["solde"],
+                date_create($row["date_creation"]),
+                date_create($row["date_resiliation"]),
+                $row["type_de_compte"]
+            );
+            $res[] = $compte;
+        }
+        $response->closeCursor();
+
+        return $res;
+
+    } catch (PDOException $th) {
+        echo "CompteClient FIND ALL ERROR" . $th->getMessage();
+    }
+}
+
 /**
  * Renvoie le compte correspondant à l'id passer en argument
  *

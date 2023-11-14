@@ -47,7 +47,7 @@ class Transaction{
         $this->id_transaction = $id_transaction;
     }
     function setid_compte_exp($id_compte_exp){
-        $this->$id_compte_exp = $id_compte_exp;
+        $this->id_compte_exp = $id_compte_exp;
     }
     function setid_compte_dest($id_compte_dest){
         $this->id_compte_dest = $id_compte_dest;

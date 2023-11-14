@@ -1,8 +1,41 @@
 <?php
 
 require_once dirname(dirname(__FILE__)) . '/DataObject/BanqueDO.php';
-require_once dirname(dirname(__FILE__)) .'/DataAccessObject/ConnectionBD.php';
+require_once dirname(dirname(__FILE__)) . '/DataAccessObject/ConnectionBD.php';
 
+function Banque_find_all(?int $limit = null)
+{
+    try {
+        global $pdo;
+        $res = array();
+        if ($limit !== null) {
+            $request = "SELECT * FROM Banque LIMIT $limit;";
+        } else {
+            $request = "SELECT * FROM Banque;";
+        }
+
+        $response = $pdo->query($request);
+
+        if ($response->rowCount() == 0) {
+            // echo"Aucun client avec l'id '$id'";
+            return null;
+        }
+        while ($row = $response->fetch(PDO::FETCH_ASSOC)) {
+            $banque = new Banque(
+                $row["id_banque"],
+                $row["nom"],
+                $row["localisation"]
+            );
+            $res[] = $banque;
+        }
+        $response->closeCursor();
+
+        return $res;
+
+    } catch (PDOException $th) {
+        echo "Banque FIND ALL ERROR" . $th->getMessage();
+    }
+}
 /**
  * Renvoie l'ojet DO banque de l'individue 
  * avec l'id corresdant
@@ -10,20 +43,25 @@ require_once dirname(dirname(__FILE__)) .'/DataAccessObject/ConnectionBD.php';
  * @param integer $id
  * @return void|Banque
  */
-function Banque_find_by_id(int $id){
+function Banque_find_by_id(int $id)
+{
     global $pdo;
-    $request = "SELECT * FROM banque WHERE id_banque =". $id .";";
+    $request = "SELECT * FROM banque WHERE id_banque =" . $id . ";";
     $response = $pdo->query($request);
-    
-    if($response->rowCount() == 0){
+
+    if ($response->rowCount() == 0) {
         // echo "Aucun Utilisateur ne correspond à l'id ". $id ."\n";
         return null;
     }
     $row = $response->fetch(PDO::FETCH_ASSOC);
     $response->closeCursor();
-    return new Banque($row['id_banque']
-    , $row['nom']
-    , $row['localisation']);
+    return new Banque(
+        $row['id_banque']
+        ,
+        $row['nom']
+        ,
+        $row['localisation']
+    );
 }
 
 /**
@@ -34,7 +72,8 @@ function Banque_find_by_id(int $id){
  * @param string $localisation
  * @return void
  */
-function Banque_insert(Banque $banque){
+function Banque_insert(Banque $banque)
+{
     try {
         global $pdo;
         $id = $banque->getid_banque();
@@ -47,10 +86,10 @@ function Banque_insert(Banque $banque){
         $stmt->bindParam("nom", $nomination, PDO::PARAM_STR);
         $stmt->bindParam("localisation", $localisation, PDO::PARAM_STR);
         $stmt->execute();
-        
+
         // echo "Adding Client with id ".$banque->getid_banque()." successed\n";;
     } catch (PDOException $th) {
-        echo "INSERT Error : ".$th->getMessage();
+        echo "INSERT Error : " . $th->getMessage();
     }
 }
 
@@ -61,7 +100,8 @@ function Banque_insert(Banque $banque){
  * @param integer|null $id
  * @return void
  */
-function Banque_remove(?int $id){
+function Banque_remove(?int $id)
+{
     try {
         global $pdo;
         $request = "DELETE FROM banque 
@@ -73,9 +113,9 @@ function Banque_remove(?int $id){
 
         // echo "Banque with id_banque ".$id." removed successfully\n";
     } catch (PDOException $th) {
-        echo "REMOVE Error : ".$th->getMessage();
+        echo "REMOVE Error : " . $th->getMessage();
     }
-} 
+}
 /**
  * Permet de mettre à jour les informations d'une banque
  * avec l'identifiant passer en argument 
@@ -85,7 +125,8 @@ function Banque_remove(?int $id){
  * @param string|null $localisation
  * @return void
  */
-function Banque_update(int $id, ?string $nomination, ?string $localisation){
+function Banque_update(int $id, ?string $nomination, ?string $localisation)
+{
     try {
         global $pdo;
 
@@ -102,6 +143,6 @@ function Banque_update(int $id, ?string $nomination, ?string $localisation){
 
         // echo "Banque with id_banque ".$id." updated successfully\n";
     } catch (PDOException $th) {
-        echo "UPDATE Error :".$th->getMessage();
+        echo "UPDATE Error :" . $th->getMessage();
     }
 }
