@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../Style/style.css">
 </head>
 <body>
+    <script src="./function_table.js"></script>
     <script src="../Script/Disposition.js"></script>
+    <script src="../Script/Client.js"></script>
 </body>
 </html>

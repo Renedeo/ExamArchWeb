@@ -10,7 +10,7 @@ require_once dirname(dirname(__FILE__)) .'/DataAccessObject/ConnectionBD.php';
  * @param integer|null $limit 
  * @return array | void
  */
-function find_All(int $limit=null){
+function Client_find_All(int $limit=null){
     try {
         global $pdo;
         $res = array();
