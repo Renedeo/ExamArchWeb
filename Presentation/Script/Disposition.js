@@ -102,26 +102,6 @@ div_section = Array.from(
     )
 );
 
-// // Select the element that you want to observe for background changes
-// var target = document.querySelector('body');
-
-// // Create an observer instance
-// var observer = new MutationObserver(function(mutations) {
-//   mutations.forEach(function(mutation) {
-//     if (mutation.attributeName === 'style' && mutation.target.style.backgroundColor) {
-//       // Handle the background change here
-//       console.log('Background color changed to: ' + mutation.target.style.backgroundColor);
-//     }
-//   });
-// });
-
-// // Configuration of the observer:
-// var config_mutation = { attributes: true, attributeFilter: ['style'] };
-
-// // Start observing the target node for configured mutations
-// observer.observe(div_section[0], config_mutation);
-
-
 function hide_section(section, id) {
     div_section = Array.from(
         document.getElementsByClassName(
