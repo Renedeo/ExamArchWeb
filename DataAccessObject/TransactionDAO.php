@@ -2,6 +2,43 @@
 
 require_once dirname(dirname(__FILE__)) . '/DataObject/TransactionDO.php';
 
+function Transaction_find_All(?int $limit = null)
+{
+    try {
+        global $pdo;
+        $res = array();
+        if ($limit !== null) {
+            $request = "SELECT * FROM transactions LIMIT $limit;";
+        } else {
+            $request = "SELECT * FROM transactions;";
+        }
+
+        $response = $pdo->query($request);
+
+        if ($response->rowCount() == 0) {
+            // echo"Aucun client avec l'id '$id'";
+            return null;
+        }
+        while ($row = $response->fetch(PDO::FETCH_ASSOC)) {
+            $transation = new Transaction(
+                $row["id_transactions"],
+                $row["id_compte_exp"],
+                $row["id_compte_dest"],
+                $row["montant"],
+                $row["motif"],
+                date_create($row["date_de_transaction"])
+            );
+            $res[] = $transation;
+        }
+        $response->closeCursor();
+
+        return $res;
+
+    } catch (PDOException $th) {
+        echo "Transaction FIND ALL ERROR" . $th->getMessage();
+    }
+}
+
 /**
  *  Renvoie la transaction correpondant à l'id 
  * passer en argument
