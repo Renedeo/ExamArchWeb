@@ -17,18 +17,28 @@ body{
     display: block !important;
     margin-bottom: 10px;
     transition: all .5s;
-    position:relative
+    position:relative;
 }
 .arrow-down{
     position: absolute !important;
-    bottom: 0;
+    top: 5px;
     /* font-size: 24px; */
     transform-origin: center;
     transform: scaleY(.6);
     transition: all .5s;
 }
 
-/* .sous_group_div_selection:hover .arrow-down {
-    transform: rotate(180deg); 
+.sous_group_div_selection:hover .su{ 
+    cursor: pointer;
+    
 } 
-*/
+
+.table-container{
+    margin: auto;
+    width: -moz-fit-content;
+    margin: auto;
+    width: fit-content;
+    
+
+}
+
