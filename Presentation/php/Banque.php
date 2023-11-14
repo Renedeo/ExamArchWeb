@@ -1,6 +1,5 @@
 <?php 
 
-require_once dirname(dirname(__FILE__)) ."../../Test/test.php";
 require_once dirname(dirname(__FILE__)) ."/php/Convert.php";
 
 
@@ -13,6 +12,6 @@ if ($liste_DO){
     echo json_encode($liste_DO);
 }
 else {
-    echo json_encode(array("Aucune banque trouvées"=>""));
+    echo json_encode([array("Aucune banque trouvées"=>"")]);
 }
 

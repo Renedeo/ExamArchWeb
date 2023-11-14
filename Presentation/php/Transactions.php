@@ -1,6 +1,5 @@
 <?php 
 
-require_once dirname(dirname(__FILE__)) ."../../Test/test.php";
 require_once dirname(dirname(__FILE__)) ."/php/Convert.php";
 
 $liste_DO = Transaction_find_All();
@@ -12,6 +11,6 @@ if ($liste_DO){
     echo json_encode($liste_DO);
 }
 else{
-    echo json_encode(array("Aucune transaction effectuée"=> ""));
+    echo json_encode([array("Aucune transaction effectuée"=> "")]);
 }
 
