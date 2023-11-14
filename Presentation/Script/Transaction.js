@@ -2,7 +2,6 @@ let xhr_transaction = new XMLHttpRequest();
 xhr_transaction.onreadystatechange = function () {
     if (xhr_transaction.readyState === 4 && xhr_transaction.status === 200) {
         let res = xhr_transaction.responseText;
-        console.log(res);
         table_display_request(res, div_Transactions, "transaction");
     }
 }
