@@ -18,8 +18,6 @@ $Transaction = new Transaction();
 $Banque->setid_banque(1);
 $Banque->setnomination("test");
 $Banque->setlocalisation('test');
-var_dump(json_encode([array("test" => "")]));
-
 // Client
 $Client->setid_client(1);
 $Client->setnom("test");
