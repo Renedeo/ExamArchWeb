@@ -60,7 +60,7 @@ function table_display_request(responseText, div, table_class="") {
 function display_client(responseText) {
 
     let JSON_res = JSON.parse(responseText);
-    if(JSON_res.id_client){
+    if(JSON_res[0].id){
 
         let div_container = document.createElement('div');
         div_container.classList.add('table-container');
