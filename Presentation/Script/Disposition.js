@@ -172,8 +172,4 @@ div_section.forEach((element) => {
 });
 
 
-document.addEventListener("DOMContentLoaded", function(){
-    // Cacher les informations des clients et les afficher au clic
-let nom_clients = Array.from(document.getElementsByClassName('client-name'));
-    console.log(nom_clients)
-})
+

@@ -10,6 +10,8 @@ class CompteClient{
 
     private ?int $id_client;
 
+    private ?int $id_conseiller;
+
     private ?int $solde;
 
     private ?Datetime $date_creation;
@@ -21,6 +23,7 @@ class CompteClient{
     function __construct(int $id_compte =  null
                         , ?int $id_banque = null
                         , ?int $id_client = null
+                        , ?int $id_conseiller = null
                         , ?int $solde = 0
                         , ?Datetime $date_creation = null
                         , ?Datetime $date_resiliation = null
@@ -28,6 +31,7 @@ class CompteClient{
     ) {
         $this->id_compte = $id_compte;
         $this->id_banque = $id_banque;
+        $this->id_conseiller = $id_conseiller;
         $this->id_client = $id_client;
         $this->solde = $solde;
         $this->date_creation = $date_creation;
@@ -45,6 +49,10 @@ class CompteClient{
 
     function getid_client(){
         return $this->id_client;
+    }
+
+    function getid_conseiller(){
+        return $this->id_conseiller;
     }
 
     function getsolde(){
@@ -66,6 +74,10 @@ class CompteClient{
 
     function setid_banque($id_banque){
         $this->id_banque = $id_banque;
+    }
+
+    function setid_conseiller($id_conseiller){
+        $this->id_conseiller = $id_conseiller;
     }
 
     function setid_client($idclient){

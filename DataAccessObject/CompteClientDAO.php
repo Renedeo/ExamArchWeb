@@ -30,6 +30,7 @@ function CompteClient_find_All(?int $limit = null)
                 $row["id_compte"],
                 $row["id_banque"],
                 $row["id_client"],
+                $row["id_conseiller"],
                 $row["solde"],
                 date_create($row["date_creation"]),
                 date_create($row["date_resiliation"]),
@@ -68,6 +69,7 @@ function CompteClient_find_by_id(int $id)
             $row["id_compte"],
             $row["id_banque"],
             $row["id_client"],
+            $row["id_conseiller"],
             $row["solde"],
             new DateTime($row["date_creation"]),
             new DateTime($row["date_resiliation"]),
@@ -93,6 +95,7 @@ function CompteClient_insert(CompteClient $compte)
         $request = "INSERT INTO Compte_Client (id_compte
                                             , id_banque
                                             , id_client
+                                            , id_conseiller
                                             , solde
                                             , date_creation
                                             , date_resiliation
@@ -100,6 +103,7 @@ function CompteClient_insert(CompteClient $compte)
                     VALUES (:id_compte
                             , :id_banque
                             , :id_client
+                            , :id_conseiller
                             , :solde
                             , date(:date_creation)
                             , date(:date_resiliation)
@@ -108,6 +112,7 @@ function CompteClient_insert(CompteClient $compte)
         $id_compte = $compte->getid_compte();
         $id_banque = $compte->getid_banque();
         $id_client = $compte->getid_client();
+        $id_conseiller = $compte->getid_conseiller();
         $solde = $compte->getsolde();
         $date_creation = $compte->getdate_creation()->format('d/m/Y');
         $date_resiliation = $compte->getdate_resiliation()->format('d/m/Y');
@@ -116,6 +121,7 @@ function CompteClient_insert(CompteClient $compte)
         $stmt->bindParam("id_compte", $id_compte, PDO::PARAM_INT);
         $stmt->bindParam("id_banque", $id_banque, PDO::PARAM_INT);
         $stmt->bindParam("id_client", $id_client, PDO::PARAM_INT);
+        $stmt->bindParam("id_conseiller", $id_conseiller, PDO::PARAM_INT);
         $stmt->bindParam("solde", $solde, PDO::PARAM_INT);
         $stmt->bindParam("date_creation", $date_creation, PDO::PARAM_STR);
         $stmt->bindParam("date_resiliation", $date_resiliation, PDO::PARAM_STR);
@@ -166,6 +172,7 @@ function CompteClient_update(CompteClient $compte)
                         SET id_compte = :id_compte
                             , id_banque = :id_banque
                             , id_client = :id_client
+                            , id_conseiller = :id_conseiller
                             , solde = :solde
                             , date_creation = date(:date_creation)
                             , date_resiliation = date(:date_resiliation)
@@ -176,6 +183,7 @@ function CompteClient_update(CompteClient $compte)
         $id_compte = $compte->getid_compte();
         $id_banque = $compte->getid_banque();
         $id_client = $compte->getid_client();
+        $id_conseiller = $compte->getid_conseiller();
         $solde = $compte->getsolde();
         $date_creation = $compte->getdate_creation()->format('Y-m-d');
         $date_resiliation = $compte->getdate_resiliation()->format('Y-m-d');
@@ -184,6 +192,7 @@ function CompteClient_update(CompteClient $compte)
         $stmt->bindParam("id_compte", $id_compte, PDO::PARAM_INT);
         $stmt->bindParam("id_banque", $id_banque, PDO::PARAM_INT);
         $stmt->bindParam("id_client", $id_client, PDO::PARAM_INT);
+        $stmt->bindParam("id_conseiller", $id_conseiller, PDO::PARAM_INT);
         $stmt->bindParam("solde", $solde, PDO::PARAM_INT);
         $stmt->bindParam("date_creation", $date_creation, PDO::PARAM_STR);
         $stmt->bindParam("date_resiliation", $date_resiliation, PDO::PARAM_STR);
