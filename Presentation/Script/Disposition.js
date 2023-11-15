@@ -109,24 +109,26 @@ div_section = Array.from(
  * @param {integer} id 
  */
 function hide_section(section, id) {
-    div_section = Array.from(
-        document.getElementsByClassName(
-            config["general"]["div_sectionDefaultClassName"]
-        )
-    );
-    div_section.forEach(element => {
-        if (element.id != id) {
-            element.style.backgroundColor =
-                config["general"]["div_sectionDefault"];
-            element.style.fontWeight = 'normal';
+    if (!input_checkbox.checked) {
+        div_section = Array.from(
+            document.getElementsByClassName(
+                config["general"]["div_sectionDefaultClassName"]
+            )
+        );
+        div_section.forEach(element => {
+            if (element.id != id) {
+                element.style.backgroundColor =
+                    config["general"]["div_sectionDefault"];
+                element.style.fontWeight = 'normal';
 
-            element.firstChild.nextSibling.style.transform = "rotate(180deg)";
+                element.firstChild.nextSibling.style.transform = "rotate(180deg)";
 
-            table_container = element.querySelector(".table-container");
-            table_container.style.display = "none"
-        }
+                table_container = element.querySelector(".table-container");
+                table_container.style.display = "none"
+            }
 
-    });
+        });
+    }
 }
 
 
@@ -158,3 +160,20 @@ div_section.forEach((element) => {
         }
     });
 });
+
+// Case à cocher pour desactiver la fonctionnalité de cacher les éléments
+input_div = document.createElement("div");
+
+input_checkbox = document.createElement("input");
+input_checkbox.type = "checkbox";
+input_checkbox.name = 'checkbox';
+input_checkbox.id = 'checkbox';
+input_checkbox.classList.add('input-check')
+
+input_checkbox_label = document.createElement('label')
+input_checkbox_label.setAttribute('for', "checkbox")
+input_checkbox_label.textContent = "Désactivation de hide_section";
+
+input_div.appendChild(input_checkbox)
+input_div.appendChild(input_checkbox_label)
+body.insertBefore(input_div, div_selection_table.nextSibling);
