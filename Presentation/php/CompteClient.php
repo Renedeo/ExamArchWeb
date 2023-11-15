@@ -9,5 +9,5 @@ if ($liste_DO) {
     }
     echo json_encode($liste_DO);
 } else {
-    echo json_encode([array("Aucun compte trouvé dans la table compte_client" => "")]);
+    echo json_encode([array("compte_client" => "Aucun compte trouvé dans la table ")]);
 }

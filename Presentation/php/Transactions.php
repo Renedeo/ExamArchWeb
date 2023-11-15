@@ -9,5 +9,5 @@ if ($liste_DO) {
     }
     echo json_encode($liste_DO);
 } else {
-    echo json_encode([array("Aucune transaction effectuée" => "")]);
+    echo json_encode([array("Transactions" => "Aucune transaction trouvée dans cette table")]);
 }
