@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-11-15T06:05:14.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="lsG7oXgTaStgzSwfBAuB" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-11-15T07:03:14.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Qs6BZsxGZ3Cmlu9E9C3N" version="22.0.3" type="device">
   <diagram name="Page-1" id="zSlbWLtohsy82lPIaHCv">
     <mxGraphModel dx="3217" dy="2642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,8 +211,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-141" value="Vient voir" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1005.5" y="456" width="120" height="60" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-141" value="prends rendez vous /contacte" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1005.5" y="456" width="234.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-143" value="Affiliée à&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="350" y="456" width="120" height="60" as="geometry" />
@@ -304,33 +304,33 @@
           <mxGeometry x="686" y="16" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-172" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="193.25" y="1107" width="260" height="250" as="geometry" />
+          <mxGeometry x="213.25" y="1147" width="260" height="250" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-173" value="Banque / Agence" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="217.75" y="1133" width="210" height="30" as="geometry" />
+          <mxGeometry x="237.75" y="1173" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-174" value="Nommination" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="218.75" y="1244" width="209" height="30" as="geometry" />
+          <mxGeometry x="238.75" y="1284" width="209" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-175" value="Localisation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="218.75" y="1284" width="209" height="33" as="geometry" />
+          <mxGeometry x="238.75" y="1324" width="209" height="33" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-176" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="922" y="1077" width="288" height="260" as="geometry" />
+          <mxGeometry x="1080" y="1014" width="288" height="260" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-177" value="Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="960" y="1099" width="210" height="30" as="geometry" />
+          <mxGeometry x="1118" y="1036" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-178" value="Nom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="961" y="1180" width="209" height="30" as="geometry" />
+          <mxGeometry x="1119" y="1117" width="209" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-179" value="Prénom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="961" y="1220" width="209" height="29" as="geometry" />
+          <mxGeometry x="1119" y="1157" width="209" height="29" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-182" target="2LoijQER2AwYKau-_3pd-172" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="323" y="1531" />
+              <mxPoint x="343" y="1531" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -356,23 +356,28 @@
         <mxCell id="2LoijQER2AwYKau-_3pd-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-176" target="2LoijQER2AwYKau-_3pd-182" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1010" y="1527" />
+              <mxPoint x="1250" y="1527" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-190" target="2LoijQER2AwYKau-_3pd-172" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="957" />
-              <mxPoint x="323" y="957" />
+              <mxPoint x="590" y="1020" />
+              <mxPoint x="323" y="1020" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-416" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-190" target="2LoijQER2AwYKau-_3pd-410" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="910" />
+              <mxPoint x="500" y="910" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-190" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="590" y="807" width="260" height="393" as="geometry" />
+          <mxGeometry x="590" y="807" width="260" height="433" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-191" value="Compte Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="615" y="842" width="210" height="30" as="geometry" />
@@ -388,12 +393,12 @@
             <mxPoint x="1008.0000000000005" y="1159" as="sourcePoint" />
             <mxPoint x="864" y="967" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1008" y="967" />
+              <mxPoint x="1140" y="967" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-198" value="Date de naissance" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="961" y="1260" width="209" height="29" as="geometry" />
+          <mxGeometry x="1119" y="1197" width="209" height="29" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-199" value="identifiant de la banque&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="601" y="1508" width="209" height="29" as="geometry" />
@@ -405,13 +410,13 @@
           <mxGeometry x="616" y="1113" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-212" value="Identifiant du client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="961" y="1140" width="209" height="30" as="geometry" />
+          <mxGeometry x="1119" y="1077" width="209" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-213" value="Identifiant du compte" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="616" y="918" width="209" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-214" value="Identifiant de la banque&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="219.75" y="1204" width="209" height="30" as="geometry" />
+          <mxGeometry x="239.75" y="1244" width="209" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-215" value="identifiant du conseiller&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="601" y="1388" width="209" height="30" as="geometry" />
@@ -551,7 +556,7 @@
           <mxGeometry x="1043" y="280" width="209" height="29" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-294" value="Situation maritale" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="961" y="1300" width="209" height="29" as="geometry" />
+          <mxGeometry x="1119" y="1237" width="209" height="29" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-295" value="Situation maritale (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1044.5" y="2302" width="389" height="29" as="geometry" />
@@ -584,28 +589,28 @@
           <mxGeometry x="410" y="-229" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-410" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-1" y="761" width="260" height="389" as="geometry" />
+          <mxGeometry x="-85" y="867" width="260" height="389" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-411" value="Transactions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="24" y="790" width="210" height="30" as="geometry" />
+          <mxGeometry x="-60" y="896" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-412" value="Montant" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="25" y="906" width="209" height="34" as="geometry" />
+          <mxGeometry x="-59" y="1012" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-413" value="Identifiant&amp;nbsp;banque expediteur" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="25" y="946" width="209" height="34" as="geometry" />
+          <mxGeometry x="-59" y="1052" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-414" value="Identifiant banque destinnataire" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="25" y="986" width="209" height="34" as="geometry" />
+          <mxGeometry x="-59" y="1092" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-415" value="Motif" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="25" y="1026" width="209" height="34" as="geometry" />
+          <mxGeometry x="-59" y="1132" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-417" value="Identifiant Compte Destiinataire" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="25" y="866" width="209" height="34" as="geometry" />
+          <mxGeometry x="-59" y="972" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-418" value="Identifiant Compte expéditeur" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="25" y="826" width="209" height="34" as="geometry" />
+          <mxGeometry x="-59" y="932" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-440" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-419" target="2LoijQER2AwYKau-_3pd-217" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -642,10 +647,10 @@
           <mxGeometry x="56" y="-74" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-430" value="Date d&#39;envoie" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="24" y="1065" width="209" height="34" as="geometry" />
+          <mxGeometry x="-60" y="1171" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-431" value="Date de reception" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="24" y="1105" width="209" height="34" as="geometry" />
+          <mxGeometry x="-60" y="1211" width="209" height="34" as="geometry" />
         </mxCell>
         <mxCell id="2LoijQER2AwYKau-_3pd-433" value="Date d&#39;envoie (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-125" y="2136" width="209" height="34" as="geometry" />
@@ -657,6 +662,9 @@
           <mxGeometry x="73.25" y="-214" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j_aoRD-km2AMqP6AJsLu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-166" target="2LoijQER2AwYKau-_3pd-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_aoRD-km2AMqP6AJsLu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-172" target="2LoijQER2AwYKau-_3pd-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
