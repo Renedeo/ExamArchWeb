@@ -25,7 +25,7 @@ function Conseiller_find_All(?int $limit = null)
             return null;
         }
         while ($row = $response->fetch(PDO::FETCH_ASSOC)) {
-            $conseiller = new Transaction(
+            $conseiller = new Conseiller(
                 $row["id_conseiller"],
                 $row["id_banque"],
                 $row["nom"],
