@@ -14,9 +14,9 @@ function Conseiller_find_All(?int $limit = null)
         global $pdo;
         $res = array();
         if ($limit !== null) {
-            $request = "SELECT * FROM conseillers LIMIT $limit;";
+            $request = "SELECT * FROM conseiller LIMIT $limit;";
         } else {
-            $request = "SELECT * FROM conseillers;";
+            $request = "SELECT * FROM conseiller;";
         }
 
         $response = $pdo->query($request);

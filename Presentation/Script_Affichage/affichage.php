@@ -8,11 +8,12 @@
 </head>
 <body>
     <script src="./function_table.js"></script>
-    <script src="../Script/Client.js"></script>
+    <script src="../Script/function_input_checkbox.js"></script>
     <script src="../Script/Disposition.js"></script>
+    <script src="../Script/Client.js"></script>
     <script src="../Script/Banque.js"></script>
     <script src="../Script/CompteCLient.js"></script>
     <script src="../Script/Transaction.js"></script>
-    <script src="../Script/function_input_checkbox.js"></script>
+    <script src="../Script/Conseiller.js"></script>
 </body>
 </html>

@@ -4,6 +4,7 @@ require_once dirname(dirname(__FILE__)) . '/DataAccessObject/BanqueDAO.php';
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/ClientDAO.php';
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/CompteClientDAO.php';
 require_once dirname(dirname(__FILE__)) . '/DataAccessObject/TransactionDAO.php';
+require_once dirname(dirname(__FILE__)) . '/DataAccessObject/ConseillerDAO.php';
 
 /**
  * Test des DO 
@@ -41,6 +42,13 @@ $Transaction->setmontant(120);
 $Transaction->setmotif("Achat");
 $Transaction->setdate_de_transaction(new DateTime(date("m/d/y")));
 
+// Conseiller
+$Conseiller = new Conseiller();
+$Conseiller->setid_Conseiller(1);
+$Conseiller->setid_banque(1);
+$Conseiller->setnom("test");
+$Conseiller->setprenom("test");
+
 /**
  * Test des DAO 
  */
@@ -69,6 +77,24 @@ $Transaction->setdate_de_transaction(new DateTime(date("m/d/y")));
 // );
 // var_dump(Client_find_by_id(1));
 // Client_remove(1);
+
+// Conseiller
+echo "--------------------------------------------------------------------------------------";
+echo "Testing Conseiller DAO ----------------------------------------------------------------------\n";
+Banque_insert($Banque);
+Conseiller_insert($Conseiller);
+var_dump(Conseiller_find_by_id(1));
+Conseiller_update(
+    new Conseiller(
+        1
+        , 1
+        ,"test_update"
+        ,'test_update'
+    )
+);
+var_dump(Conseiller_find_by_id(1));
+Conseiller_remove(1);
+Banque_remove(1);
 
 // // CompteClient
 // echo "--------------------------------------------------------------------------------------";
@@ -126,26 +152,26 @@ $Transaction->setdate_de_transaction(new DateTime(date("m/d/y")));
 // echo "--------------------------------------------------------------------------------------";
 
 // Test insertion pour affichage
-Transaction_remove(1);
+// Transaction_remove(1);
 
-CompteClient_remove(1);
-CompteClient_remove(2);
+// CompteClient_remove(1);
+// CompteClient_remove(2);
 
-Banque_remove(1);
+// Banque_remove(1);
 
-Client_remove(1);
-Client_remove(2);
+// Client_remove(1);
+// Client_remove(2);
 
-Banque_insert($Banque);
+// Banque_insert($Banque);
 
-Client_insert($Client);
-$Client->setid_client(2);
-$Client->setnom("Test");
-Client_insert($Client);
+// Client_insert($Client);
+// $Client->setid_client(2);
+// $Client->setnom("Test");
+// Client_insert($Client);
 
-CompteClient_insert($CompteClient);
-$CompteClient->setid_compte(2);
-CompteClient_insert($CompteClient);
+// CompteClient_insert($CompteClient);
+// $CompteClient->setid_compte(2);
+// CompteClient_insert($CompteClient);
 
-$Transaction->setid_compte_dest(2);
-Transaction_insert($Transaction);
+// $Transaction->setid_compte_dest(2);
+// Transaction_insert($Transaction);

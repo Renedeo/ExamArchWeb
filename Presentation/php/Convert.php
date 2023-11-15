@@ -4,6 +4,7 @@ require_once dirname(dirname(__FILE__)) ."/../DataAccessObject/ClientDAO.php";
 require_once dirname(dirname(__FILE__)) ."/../DataAccessObject/BanqueDAO.php";
 require_once dirname(dirname(__FILE__)) ."/../DataAccessObject/TransactionDAO.php";
 require_once dirname(dirname(__FILE__)) ."/../DataAccessObject/CompteClientDAO.php";
+require_once dirname(dirname(__FILE__)) ."/../DataAccessObject/ConseillerDAO.php";
 
 
 function ClientDO_to_BO(Client $client) {
@@ -41,6 +42,15 @@ function TransactionDO_to_BO(Transaction $transaction) {
         "montant" => $transaction->getmontant(),
         "motif" => $transaction->getmotif(),
         "date_de_transaction" => $transaction->getdate_de_transaction()->format("Y-m-d")
+    );
+}
+
+function ConseillerDO_to_BO(Conseiller $conseiller) {
+    return array(
+        "id_conseiller" => $conseiller->getid_conseiller(),
+        "id_banque"=> $conseiller->getid_banque(),
+        "nom" => $conseiller->getnom(),
+        "prenom" => $conseiller->getprenom()
     );
 }
 

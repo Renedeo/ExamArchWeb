@@ -30,7 +30,7 @@ class Conseiller {
         return $this->nom;
     }
 
-    function getPrenom(){
+    function getprenom(){
         return $this->prenom;
     }
 

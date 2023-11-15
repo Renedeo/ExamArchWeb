@@ -58,11 +58,14 @@ function table_display_request(responseText, div, table_class="") {
  * @param {String} responseText Reponse xhr encoder en json
  */
 function display_client(responseText) {
+
     let JSON_res = JSON.parse(responseText);
-    let div_container = document.createElement('div');
-    div_container.classList.add('table-container');
-    div_container.id = 'information-client';
-    
+    if(JSON_res.id_client){
+
+        let div_container = document.createElement('div');
+        div_container.classList.add('table-container');
+        div_container.id = 'information-client';
+        
     for (let index = 0; index < JSON_res.length; index++) {
         const client = JSON_res[index];
 
@@ -70,7 +73,7 @@ function display_client(responseText) {
         let div_client_name = document.createElement('div');
         let div_info = document.createElement('div');
         let arrow = document.createElement("span");
-
+        
         container.className = "container";
         div_client_name.className = 'client-name';
         div_info.className = 'client-info';
@@ -78,8 +81,8 @@ function display_client(responseText) {
         
         arrow.innerHTML = "&#9660";
         div_client_name.innerHTML = client["prenom"]  + " " + client["nom"];
-
-
+        
+        
         div_client_name.appendChild(arrow);
         
         delete client.nom;
@@ -103,5 +106,9 @@ function display_client(responseText) {
         div_container.appendChild(container);
     }
     div_Clients.appendChild(div_container);
+    }
+    else {
+        table_display_request(responseText, div_Clients,  "clients")
+    }
     
 }
