@@ -44,9 +44,64 @@ function table_display_request(responseText, div, table_class="") {
         }
         tbody.appendChild(row);
     }
-
+    
     table.appendChild(tbody);
-
+    
     tableContainer.appendChild(table);
     div.appendChild(tableContainer);
+}
+
+/**
+ * Ajoute une section dans la division des clients 
+ * Cette section contient la liste des client et des informations les concernant
+ * 
+ * @param {String} responseText Reponse xhr encoder en json
+ */
+function display_client(responseText) {
+    let JSON_res = JSON.parse(responseText);
+    let div_container = document.createElement('div');
+    div_container.classList.add('table-container');
+    div_container.id = 'information-client';
+    
+    for (let index = 0; index < JSON_res.length; index++) {
+        const client = JSON_res[index];
+
+        let container = document.createElement('div');
+        let div_client_name = document.createElement('div');
+        let div_info = document.createElement('div');
+        let arrow = document.createElement("span");
+
+        container.className = "container";
+        div_client_name.className = 'client-name';
+        div_info.className = 'client-info';
+        arrow.className = "arrow-down-sub";
+        
+        arrow.innerHTML = "&#9660";
+        div_client_name.innerHTML = client["prenom"]  + " " + client["nom"];
+
+
+        div_client_name.appendChild(arrow);
+        
+        delete client.nom;
+        delete client.prenom;
+        
+        // Liste d'informations
+        let ul = document.createElement('ul')
+        let li ;
+        for (const key in client) {
+            if (Object.hasOwnProperty.call(client, key)) {
+                const element = client[key];
+                li = document.createElement('li')
+                li.textContent = key.replaceAll('_', ' ') + " : " + element;
+                ul.appendChild(li);  
+            }
+        }
+
+        div_info.appendChild(ul);
+        container.appendChild(div_client_name);
+        container.appendChild(div_info);
+        div_container.appendChild(container);
+    }
+    div_Clients.appendChild(div_container);
+    
 }

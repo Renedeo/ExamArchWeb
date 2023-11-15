@@ -1,38 +1,22 @@
-// let url = "../php/Client.php";
-
-// let xhr = new XMLHttpRequest();
-// xhr.onreadystatechange = function () {
-//   if (xhr.readyState === 4 && xhr.status === 200) {
-//     // console.log(xhr.responseText);
-//     console.log(JSON.parse(xhr.responseText));
-//   } else {
-//     console.log(xhr.readyState);
-//   }
-// };
-
-// xhr.open("GET", url);
-// // xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-// xhr.send();
-
 body = document.body;
 
-div_selection_table = document.createElement("div");
-h1_gestion_banque = document.createElement("h1");
-arrow = document.createElement("span");
+let div_selection_table = document.createElement("div");
+let h1_gestion_banque = document.createElement("h1");
+let arrow = document.createElement("span");
 arrow.innerHTML = "&#9660";
 arrow.className = "arrow-down";
 
 // Création des différentes catégories de la page
-div_Clients = document.createElement("div");
-div_Banques = document.createElement("div");
-div_ComptesClient = document.createElement("div");
-div_Transactions = document.createElement("div");
+let div_Clients = document.createElement("div");
+let div_Banques = document.createElement("div");
+let div_ComptesClient = document.createElement("div");
+let div_Transactions = document.createElement("div");
 
 // Ajout des entete des sections
-Banques = document.createElement("div");
-Clients = document.createElement("div");
-ComptesClient = document.createElement("div");
-Transactions = document.createElement("div");
+let Banques = document.createElement("div");
+let Clients = document.createElement("div");
+let ComptesClient = document.createElement("div");
+let Transactions = document.createElement("div");
 
 // Ajout de texte dans les différents éléments initiaux
 h1_gestion_banque.appendChild(document.createTextNode("Gestion Banque"));
@@ -71,13 +55,13 @@ if (body.firstChild) {
     body.insertBefore(div_selection_table, body.firstChild);
 }
 
-let arrows = document.querySelectorAll(".arrow-down");
+// let arrows = document.querySelectorAll(".arrow-down");
 let config = {
     "div-clients": {
         "background-color": "white",
     },
     "div-banque": {
-        "background-color": "blue",
+        "background-color": "skyblue",
     },
     "div-compteclient": {
         "background-color": "yellow",
@@ -118,41 +102,27 @@ div_selection_table.appendChild(div_ComptesClient);
 div_selection_table.appendChild(div_Transactions);
 
 // // Liste des différentes sections de la gestion des banques
-div_section = Array.from(
+let div_section = Array.from(
     document.getElementsByClassName(
         config["general"]["sectionDefaultClassName"]
     )
 );
 
-/**
- * Cache la table précédentes lors du déroulement d'un autre
- * 
- * @param {object} section 
- * @param {integer} id 
- */
-function hide_section(section, id) {
-    if (!input_checkbox.checked) {
-        div_section = Array.from(
-            document.getElementsByClassName(
-                config["general"]["sectionDefaultClassName"]
-            )
-        );
-        div_section.forEach(element => {
-            if (element.id != id) {
-                element.parentNode.style.backgroundColor =
-                    config["general"]["div_sectionDefault"];
-                element.style.fontWeight = 'normal';
+// Case à cocher pour desactiver la fonctionnalité de cacher les éléments
+let input_div = document.createElement("div");
+let input_checkbox = document.createElement("input");
+input_checkbox.type = "checkbox";
+input_checkbox.name = 'input-checkbox';
+input_checkbox.id = 'input-checkbox';
+input_checkbox.classList.add('input-check')
 
-                element.firstChild.nextSibling.style.transform = "rotate(180deg)";
+let input_checkbox_label = document.createElement('label')
+input_checkbox_label.setAttribute('for', input_checkbox.id);
+input_checkbox_label.textContent = "Désactivation de hide_section";
 
-                table_container = element.parentNode.querySelector(".table-container");
-                table_container.style.display = "none"
-            }
-
-        });
-    }
-}
-
+input_div.appendChild(input_checkbox)
+input_div.appendChild(input_checkbox_label)
+body.insertBefore(input_div, div_selection_table.nextSibling);
 
 
 
@@ -161,53 +131,34 @@ div_section.forEach((element) => {
         if (
             element.parentNode.style.backgroundColor == config["general"]["div_sectionDefault"]
         ) {
-            
+
             hide_section(div_section, element.id)
-            element.style.borderBottom  = `2px solid aquamarine`;
+            element.style.borderBottom = `2px solid aquamarine`;
             element.parentNode.style.backgroundColor = config[element.parentNode.id]["background-color"];
             element.style.fontWeight = "900";
             element.firstChild.nextSibling.style.transform = 'rotate(0deg)';
-            
-            table_container = element.parentNode.querySelector(".table-container");
+
+            let table_container = element.parentNode.querySelector(".table-container");
             table_container.style.display = "block"
-            
-            
+
+
         } else {
-            
-            element.style.borderBottom  = "none";
+
+            element.style.borderBottom = "none";
             element.parentNode.style.backgroundColor =
                 config["general"]["div_sectionDefault"];
             element.style.fontWeight = 'normal';
 
             element.firstChild.nextSibling.style.transform = "rotate(180deg)";
-            table_container = element.parentNode.querySelector(".table-container");
+            let table_container = element.parentNode.querySelector(".table-container");
             table_container.style.display = "none"
         }
     });
 });
 
-// Case à cocher pour desactiver la fonctionnalité de cacher les éléments
-input_div = document.createElement("div");
 
-input_checkbox = document.createElement("input");
-input_checkbox.type = "checkbox";
-input_checkbox.name = 'input-checkbox';
-input_checkbox.id = 'input-checkbox';
-input_checkbox.classList.add('input-check')
-
-input_checkbox_label = document.createElement('label')
-input_checkbox_label.setAttribute('for', input_checkbox.id);
-input_checkbox_label.textContent = "Désactivation de hide_section";
-
-input_div.appendChild(input_checkbox)
-input_div.appendChild(input_checkbox_label)
-body.insertBefore(input_div, div_selection_table.nextSibling);
-
-// Cacher les informations des clients et les afficher au clic
-
-table_header = document.querySelectorAll(".table-header");
-Array.from(table_header).forEach(element => {
-    element.addEventListener("click", function(event) {
-        console.log(element.nextSibling)
-    })
-});
+document.addEventListener("DOMContentLoaded", function(){
+    // Cacher les informations des clients et les afficher au clic
+let nom_clients = Array.from(document.getElementsByClassName('client-name'));
+    console.log(nom_clients)
+})

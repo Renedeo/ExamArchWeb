@@ -124,3 +124,28 @@ $Transaction->setdate_de_transaction(new DateTime(date("m/d/y")));
 // Client_remove(1);
 
 // echo "--------------------------------------------------------------------------------------";
+
+// Test insertion pour affichage
+Transaction_remove(1);
+
+CompteClient_remove(1);
+CompteClient_remove(2);
+
+Banque_remove(1);
+
+Client_remove(1);
+Client_remove(2);
+
+Banque_insert($Banque);
+
+Client_insert($Client);
+$Client->setid_client(2);
+$Client->setnom("Test");
+Client_insert($Client);
+
+CompteClient_insert($CompteClient);
+$CompteClient->setid_compte(2);
+CompteClient_insert($CompteClient);
+
+$Transaction->setid_compte_dest(2);
+Transaction_insert($Transaction);
