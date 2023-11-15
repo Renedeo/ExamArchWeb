@@ -2,7 +2,37 @@
 Examen d'architecture web du 08/11/2023
 
 ## Rendu du premier exercice du 08/11/2023
-* Construction du schéma de base de données sous forme de MCD, MLD, etc., pour représenter les différentes transactions.
+# ExamArchWeb
+Examen d'architecture web du 08/11/2023
+
+## Rendu du premier exercice du 08/11/2023
+* Construction du schéma de base de données sous les formes MCD, MLD, MPD, et dictionnaire de données 
+
+### MCD (Modèle Conceptuel des Données)
+Conception de la base de données en décrivant les colonnes des tables et en établissant les relations entre celles-ci.
+
+#### BD : Gestion des comptes clients d'une banque
+Nous partons de l'idée qu'un client se rend dans une banque pour créer un compte. Ensuite, le conseiller procède à la création du compte.
+
+Nous devons donc avoir une **table de rendez-vous** pour les clients et les conseillers d'une banque.
+
+Le client se voit ensuite attribuer un type de compte en fonction de sa situation. Il peut ensuite procéder à la gestion de son compte, telle que la configuration des plafonds, ou passer par le conseiller pour effectuer certaines opérations plus délicates, telles qu'une opposition relevant de la sécurité du compte.
+
+Nous devons donc avoir en plus une **table d'opérations sur le compte**.
+
+Le client d'une banque utilise également un compte pour effectuer des transactions en interne ou en externe vers une autre banque.
+
+Nous avons donc une **table de transactions** qui enregistre ces différentes transactions.
+
+Pour le reste, nous avons la création des tables :
+* **Banque**     
+  Enregistre les informations sur les banques ou agences.
+* **Client** 
+  Enregistre les informations sur les clients.
+* **Compte Client** 
+  Enregistre les informations sur les comptes clients.
+* **Conseiller** 
+  Correspond davantage aux conseillers de la banque.
 
 Pour le reste, nous avons la création des tables :
 * **Banque**     
@@ -13,9 +43,6 @@ Table enregistrant les informations sur les clients
 Informations sur les comptes clients
 * **Conseiller** 
 Table correspondant aux conseillers de la banque
-
-<div style="background:red;color:white;text-align:center">Correspondant aux tables non présentes</div>
-<div style="background:blue;color:white;text-align:center">Correspondant aux tables présentes</div>
 
 ## Création des Data Objects et Data Access Objects
 
@@ -53,5 +80,3 @@ Nous devons créer une interface simple permettant d'afficher les informations s
 - Informations sur le conseiller bancaire
 - Afficher la liste des comptes clients gérés par un conseiller
 
-<div style="background:red;color:white;text-align:center">Corresponds aux informations non présentes</div>
-<div style="background:blue;color:white;text-align:center">Correspondant aux informations présentes</div>
