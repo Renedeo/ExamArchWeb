@@ -12,6 +12,7 @@ function ClientDO_to_BO(Client $client) {
         "nom" => $client->getnom(),
         "prenom" => $client->getprenom(),
         "date_de_naissance" => $client->getdate_de_naissance()->format('Y-m-d'),
+        "situation_maritale" => $client->getsituation_maritale()
     );
 }
 function BanqueDO_to_BO(Banque $banque) {
