@@ -25,7 +25,7 @@ function Transaction_find_All(?int $limit = null)
             return null;
         }
         while ($row = $response->fetch(PDO::FETCH_ASSOC)) {
-            $transation = new Transaction(
+            $transaction = new Transaction(
                 $row["id_transactions"],
                 $row["id_compte_exp"],
                 $row["id_compte_dest"],
@@ -33,7 +33,7 @@ function Transaction_find_All(?int $limit = null)
                 $row["motif"],
                 date_create($row["date_de_transaction"])
             );
-            $res[] = $transation;
+            $res[] = $transaction;
         }
         $response->closeCursor();
 
