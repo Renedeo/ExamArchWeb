@@ -1,223 +1,223 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T17:01:27.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="MBp5iLc3-rmkFGhuIvKA" version="22.0.8" type="google">
+<mxfile host="Electron" modified="2023-11-15T06:05:14.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="lsG7oXgTaStgzSwfBAuB" version="22.0.3" type="device">
   <diagram name="Page-1" id="zSlbWLtohsy82lPIaHCv">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3217" dy="2642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2LoijQER2AwYKau-_3pd-1" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-1" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="263.25" y="152" width="260" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-2" value="Banque / Agence" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-2" value="Banque / Agence" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="287.75" y="186" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-4" value="Nommination" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-4" value="Nommination" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="288.75" y="237" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-5" value="Localisation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-5" value="Localisation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="288.75" y="277" width="209" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-6" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="920" y="102" width="330" height="248" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-6" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1002" y="79" width="330" height="248" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-8" value="Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="960" y="132" width="210" height="30" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-8" value="Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1042" y="109" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-10" value="Nom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="961" y="183" width="209" height="30" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-10" value="Nom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1043" y="160" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-12" value="Prénom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="961" y="223" width="209" height="29" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-12" value="Prénom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1043" y="200" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-24" value="MLD" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-24" value="MLD" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="100" y="650" width="1230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-68" value="MPD" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-68" value="MPD" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="30" y="1694" width="1380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-103" value="Gestion de compte Banquaire" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-103" value="Gestion de compte Banquaire" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="608" y="-640" width="370" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-104" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-104" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="181" y="2760" width="1120" height="840" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+        <mxCell id="2LoijQER2AwYKau-_3pd-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2LoijQER2AwYKau-_3pd-104" vertex="1">
           <mxGeometry width="1120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-106" value="Table" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" vertex="1" parent="2LoijQER2AwYKau-_3pd-105">
+        <mxCell id="2LoijQER2AwYKau-_3pd-106" value="Table" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" parent="2LoijQER2AwYKau-_3pd-105" vertex="1">
           <mxGeometry width="270" height="140" as="geometry">
             <mxRectangle width="270" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-107" value="Champs" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" vertex="1" parent="2LoijQER2AwYKau-_3pd-105">
+        <mxCell id="2LoijQER2AwYKau-_3pd-107" value="Champs" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" parent="2LoijQER2AwYKau-_3pd-105" vertex="1">
           <mxGeometry x="270" width="300" height="140" as="geometry">
             <mxRectangle width="300" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-108" value="Description" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" vertex="1" parent="2LoijQER2AwYKau-_3pd-105">
+        <mxCell id="2LoijQER2AwYKau-_3pd-108" value="Description" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" parent="2LoijQER2AwYKau-_3pd-105" vertex="1">
           <mxGeometry x="570" width="271" height="140" as="geometry">
             <mxRectangle width="271" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-109" value="Type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" vertex="1" parent="2LoijQER2AwYKau-_3pd-105">
+        <mxCell id="2LoijQER2AwYKau-_3pd-109" value="Type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=35;" parent="2LoijQER2AwYKau-_3pd-105" vertex="1">
           <mxGeometry x="841" width="279" height="140" as="geometry">
             <mxRectangle width="279" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-110" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+        <mxCell id="2LoijQER2AwYKau-_3pd-110" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2LoijQER2AwYKau-_3pd-104" vertex="1">
           <mxGeometry y="140" width="1120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-111" value="Client" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-110">
+        <mxCell id="2LoijQER2AwYKau-_3pd-111" value="Client" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-110" vertex="1">
           <mxGeometry width="270" height="140" as="geometry">
             <mxRectangle width="270" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-112" value="id_client&amp;nbsp;&lt;br&gt;nom&amp;nbsp;&lt;br&gt;prénom&amp;nbsp;&lt;br&gt;Date de naissance&lt;br&gt;Situation familliale" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-110">
+        <mxCell id="2LoijQER2AwYKau-_3pd-112" value="id_client&amp;nbsp;&lt;br&gt;nom&amp;nbsp;&lt;br&gt;prénom&amp;nbsp;&lt;br&gt;Date de naissance&lt;br&gt;Situation familliale" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-110" vertex="1">
           <mxGeometry x="270" width="300" height="140" as="geometry">
             <mxRectangle width="300" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-113" value="Table correspondant aux clients. Avec les défférentes informations comme les situations familialle." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-110">
+        <mxCell id="2LoijQER2AwYKau-_3pd-113" value="Table correspondant aux clients. Avec les défférentes informations comme les situations familialle." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-110" vertex="1">
           <mxGeometry x="570" width="271" height="140" as="geometry">
             <mxRectangle width="271" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-114" value="varchar(255)&lt;br&gt;varchar(50)&lt;br&gt;varchar(50)&lt;br&gt;Date&lt;br&gt;varchar(255)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-110">
+        <mxCell id="2LoijQER2AwYKau-_3pd-114" value="integer&lt;br&gt;varchar(50)&lt;br&gt;varchar(50)&lt;br&gt;Date&lt;br&gt;varchar(255)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-110" vertex="1">
           <mxGeometry x="841" width="279" height="140" as="geometry">
             <mxRectangle width="279" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-115" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+        <mxCell id="2LoijQER2AwYKau-_3pd-115" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2LoijQER2AwYKau-_3pd-104" vertex="1">
           <mxGeometry y="280" width="1120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-116" value="Banque / Agence" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-115">
+        <mxCell id="2LoijQER2AwYKau-_3pd-116" value="Banque / Agence" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-115" vertex="1">
           <mxGeometry width="270" height="140" as="geometry">
             <mxRectangle width="270" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-117" value="id_banque&lt;br&gt;Nommination&lt;br&gt;Localisation" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-115">
+        <mxCell id="2LoijQER2AwYKau-_3pd-117" value="id_banque&lt;br&gt;Nommination&lt;br&gt;Localisation" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-115" vertex="1">
           <mxGeometry x="270" width="300" height="140" as="geometry">
             <mxRectangle width="300" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-118" value="Table correspondant au différentes banques enregistrer dans la base de données.&lt;br&gt;à savoir le nom de la banque et son addresse." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-115">
+        <mxCell id="2LoijQER2AwYKau-_3pd-118" value="Table correspondant au différentes banques enregistrer dans la base de données.&lt;br&gt;à savoir le nom de la banque et son addresse." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-115" vertex="1">
           <mxGeometry x="570" width="271" height="140" as="geometry">
             <mxRectangle width="271" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-119" value="varchar(255)&lt;br&gt;varchar(50)&lt;br&gt;varchar(255)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-115">
+        <mxCell id="2LoijQER2AwYKau-_3pd-119" value="integer&lt;br&gt;varchar(50)&lt;br&gt;varchar(255)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-115" vertex="1">
           <mxGeometry x="841" width="279" height="140" as="geometry">
             <mxRectangle width="279" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-120" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+        <mxCell id="2LoijQER2AwYKau-_3pd-120" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2LoijQER2AwYKau-_3pd-104" vertex="1">
           <mxGeometry y="420" width="1120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-121" value="Conseiller" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-120">
+        <mxCell id="2LoijQER2AwYKau-_3pd-121" value="Conseiller" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-120" vertex="1">
           <mxGeometry width="270" height="140" as="geometry">
             <mxRectangle width="270" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-122" value="id_conseiller&amp;nbsp;&lt;br&gt;Nom&lt;br&gt;Prénom&lt;br&gt;Id_banque" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-120">
+        <mxCell id="2LoijQER2AwYKau-_3pd-122" value="id_conseiller&amp;nbsp;&lt;br&gt;Nom&lt;br&gt;Prénom&lt;br&gt;Id_banque" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-120" vertex="1">
           <mxGeometry x="270" width="300" height="140" as="geometry">
             <mxRectangle width="300" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-123" value="Table correspondant aux différents information sur les conseillers enregistrer dans la base de données.&lt;br&gt;à savoir la banque dans laquelle il travaille et son identifiant dans cette banque." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-120">
+        <mxCell id="2LoijQER2AwYKau-_3pd-123" value="Table correspondant aux différents information sur les conseillers enregistrer dans la base de données.&lt;br&gt;à savoir la banque dans laquelle il travaille et son identifiant dans cette banque." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-120" vertex="1">
           <mxGeometry x="570" width="271" height="140" as="geometry">
             <mxRectangle width="271" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-124" value="varchar(255)&lt;br&gt;varchar(50)&lt;br&gt;varchar(50)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-120">
+        <mxCell id="2LoijQER2AwYKau-_3pd-124" value="integer&lt;br&gt;varchar(50)&lt;br&gt;varchar(50)&lt;br&gt;integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-120" vertex="1">
           <mxGeometry x="841" width="279" height="140" as="geometry">
             <mxRectangle width="279" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-125" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+        <mxCell id="2LoijQER2AwYKau-_3pd-125" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2LoijQER2AwYKau-_3pd-104" vertex="1">
           <mxGeometry y="560" width="1120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-126" value="Compte Client" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-125">
+        <mxCell id="2LoijQER2AwYKau-_3pd-126" value="Compte Client" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-125" vertex="1">
           <mxGeometry width="270" height="140" as="geometry">
             <mxRectangle width="270" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-127" value="id&lt;br&gt;id_client&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Id_banque&lt;br&gt;id_conseiller&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Type de compte&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date de création&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date de résiliation&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Solde&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-125">
+        <mxCell id="2LoijQER2AwYKau-_3pd-127" value="id&lt;br&gt;id_client&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Id_banque&lt;br&gt;id_conseiller&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Type de compte&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date de création&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date de résiliation&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Solde&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-125" vertex="1">
           <mxGeometry x="270" width="300" height="140" as="geometry">
             <mxRectangle width="300" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-128" value="table comportant les information sur le compte client comme la banque , le client et le conseiller associée." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-125">
+        <mxCell id="2LoijQER2AwYKau-_3pd-128" value="table comportant les information sur le compte client comme la banque , le client et le conseiller associée." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-125" vertex="1">
           <mxGeometry x="570" width="271" height="140" as="geometry">
             <mxRectangle width="271" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-129" value="varchar(255)&lt;br&gt;varchar(255)&amp;nbsp;&lt;br&gt;varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)&amp;nbsp;&lt;br&gt;Date&lt;br&gt;Date&lt;br&gt;Réel" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-125">
+        <mxCell id="2LoijQER2AwYKau-_3pd-129" value="integer&lt;br&gt;integer&lt;br&gt;integer&lt;br&gt;integer&lt;br&gt;Date&lt;br&gt;Date&lt;br&gt;Réel" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-125" vertex="1">
           <mxGeometry x="841" width="279" height="140" as="geometry">
             <mxRectangle width="279" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-435" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2LoijQER2AwYKau-_3pd-104">
+        <mxCell id="2LoijQER2AwYKau-_3pd-435" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2LoijQER2AwYKau-_3pd-104" vertex="1">
           <mxGeometry y="700" width="1120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-436" value="Transactions" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-435">
+        <mxCell id="2LoijQER2AwYKau-_3pd-436" value="Transactions" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-435" vertex="1">
           <mxGeometry width="270" height="140" as="geometry">
             <mxRectangle width="270" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-437" value="id_compte_exp&lt;br&gt;id_compte_dest&lt;br&gt;id_banque_exp&lt;br&gt;id_banque_dest&lt;br&gt;Date&lt;br&gt;Montant" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-435">
+        <mxCell id="2LoijQER2AwYKau-_3pd-437" value="id_compte_exp&lt;br&gt;id_compte_dest&lt;br&gt;id_banque_exp&lt;br&gt;id_banque_dest&lt;br&gt;Date&lt;br&gt;Montant" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-435" vertex="1">
           <mxGeometry x="270" width="300" height="140" as="geometry">
             <mxRectangle width="300" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-438" value="table correspondant aux différentes transactions entre les client d&#39;une ou différentes banques&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-435">
+        <mxCell id="2LoijQER2AwYKau-_3pd-438" value="table correspondant aux différentes transactions entre les client d&#39;une ou différentes banques&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-435" vertex="1">
           <mxGeometry x="570" width="271" height="140" as="geometry">
             <mxRectangle width="271" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-439" value="varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;varchar(255)&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="2LoijQER2AwYKau-_3pd-435">
+        <mxCell id="2LoijQER2AwYKau-_3pd-439" value="integer&lt;br&gt;integer&lt;br&gt;integer&lt;br&gt;integer&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="2LoijQER2AwYKau-_3pd-435" vertex="1">
           <mxGeometry x="841" width="279" height="140" as="geometry">
             <mxRectangle width="279" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-135" target="2LoijQER2AwYKau-_3pd-1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-135" target="2LoijQER2AwYKau-_3pd-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="393" y="474" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-135" target="2LoijQER2AwYKau-_3pd-144">
+        <mxCell id="2LoijQER2AwYKau-_3pd-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-135" target="2LoijQER2AwYKau-_3pd-144" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="790" y="360" />
+              <mxPoint x="790" y="376" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-135" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="630" y="360" width="288" height="228" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-135" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="616" y="376.25" width="288" height="228" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-136" value="Conseiller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-136" value="Conseiller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="670" y="410" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-138" value="Nom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-138" value="Nom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="671" y="461" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-139" value="Prénom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-139" value="Prénom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="671" y="501" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-6" target="2LoijQER2AwYKau-_3pd-135">
+        <mxCell id="2LoijQER2AwYKau-_3pd-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-6" target="2LoijQER2AwYKau-_3pd-135" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1080" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-141" value="Vient voir" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-141" value="Vient voir" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1005.5" y="456" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-143" value="Affiliée à&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-143" value="Affiliée à&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="350" y="456" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-144" target="2LoijQER2AwYKau-_3pd-1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-144" target="2LoijQER2AwYKau-_3pd-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="660" y="-100" />
@@ -225,22 +225,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-144" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-169" width="260" height="259" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-144" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="658" y="-186.5" width="260" height="259" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-406" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-144" target="2LoijQER2AwYKau-_3pd-395">
+        <mxCell id="2LoijQER2AwYKau-_3pd-406" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-144" target="2LoijQER2AwYKau-_3pd-395" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-145" value="Compte Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-145" value="Compte Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="685" y="-140" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-146" value="Type de compte&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-146" value="Type de compte&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="686" y="-99" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-147" value="Date de création / résiliation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-147" value="Date de création / résiliation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="686" y="-64" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-6" target="2LoijQER2AwYKau-_3pd-144">
+        <mxCell id="2LoijQER2AwYKau-_3pd-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-6" target="2LoijQER2AwYKau-_3pd-144" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1078.0000000000005" y="102" as="sourcePoint" />
             <mxPoint x="934" y="-90" as="targetPoint" />
@@ -249,118 +249,118 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-149" value="Ouvre un" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="990" y="-140" width="120" height="60" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-149" value="Ouvre un" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1042" y="-121" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-151" value="enregistrer dans une" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-151" value="enregistrer dans une" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="340" y="-139" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-153" value="conseille sur la gestion" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-153" value="conseille sur la gestion" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="690" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-154" value="MCD" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-360" width="1230" height="60" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-154" value="MCD" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="113" y="-460" width="1230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-155" value="Date de naissance" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="961" y="263" width="209" height="29" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-155" value="Date de naissance" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1043" y="240" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-156" value="Banque d&#39;affiliation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-156" value="Banque d&#39;affiliation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="671" y="541" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-157" value="Solde" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-157" value="Solde" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="686" y="-24" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-158" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="70" width="60" height="30" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-158" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1172" y="47" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-159" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-159" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="927" y="-68.75" width="60" height="38.75" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-162" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="376.25" width="60" height="17.5" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-162" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1172" y="353.25" width="60" height="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-163" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-163" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="918" y="435" width="60" height="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-164" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-164" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="798" y="334.5" width="60" height="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-165" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-165" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="798" y="60" width="60" height="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-166" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-166" value="0 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="568" y="440" width="60" height="17.5" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-167" value="1 ... 1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-167" value="1 ... 1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="401" y="370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-168" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-168" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="590" y="-90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-169" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-169" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="410" y="110" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-170" value="Banque d&#39;enregistrement" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-170" value="Banque d&#39;enregistrement" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="686" y="16" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-172" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-172" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="193.25" y="1107" width="260" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-173" value="Banque / Agence" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-173" value="Banque / Agence" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="217.75" y="1133" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-174" value="Nommination" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-174" value="Nommination" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="218.75" y="1244" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-175" value="Localisation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-175" value="Localisation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="218.75" y="1284" width="209" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-176" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-176" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="922" y="1077" width="288" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-177" value="Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-177" value="Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="960" y="1099" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-178" value="Nom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-178" value="Nom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="961" y="1180" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-179" value="Prénom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-179" value="Prénom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="961" y="1220" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-182" target="2LoijQER2AwYKau-_3pd-172">
+        <mxCell id="2LoijQER2AwYKau-_3pd-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-182" target="2LoijQER2AwYKau-_3pd-172" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="323" y="1531" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-182" target="2LoijQER2AwYKau-_3pd-190">
+        <mxCell id="2LoijQER2AwYKau-_3pd-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-182" target="2LoijQER2AwYKau-_3pd-190" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="720" y="1417" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-182" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-182" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="560" y="1307" width="288" height="338" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-183" value="Conseiller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-183" value="Conseiller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="600" y="1347" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-184" value="Nom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-184" value="Nom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="601" y="1428" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-185" value="Prénom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-185" value="Prénom" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="601" y="1468" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-176" target="2LoijQER2AwYKau-_3pd-182">
+        <mxCell id="2LoijQER2AwYKau-_3pd-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-176" target="2LoijQER2AwYKau-_3pd-182" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1010" y="1527" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-190" target="2LoijQER2AwYKau-_3pd-172">
+        <mxCell id="2LoijQER2AwYKau-_3pd-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-190" target="2LoijQER2AwYKau-_3pd-172" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="957" />
@@ -368,22 +368,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-416" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-190" target="2LoijQER2AwYKau-_3pd-410">
+        <mxCell id="2LoijQER2AwYKau-_3pd-416" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-190" target="2LoijQER2AwYKau-_3pd-410" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-190" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-190" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="590" y="807" width="260" height="393" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-191" value="Compte Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-191" value="Compte Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="615" y="842" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-192" value="Type de compte&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-192" value="Type de compte&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="616" y="958" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-193" value="Date de création" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-193" value="Date de création" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="616" y="993" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-176" target="2LoijQER2AwYKau-_3pd-190">
+        <mxCell id="2LoijQER2AwYKau-_3pd-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-176" target="2LoijQER2AwYKau-_3pd-190" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1008.0000000000005" y="1159" as="sourcePoint" />
             <mxPoint x="864" y="967" as="targetPoint" />
@@ -392,88 +392,88 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-198" value="Date de naissance" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-198" value="Date de naissance" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="961" y="1260" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-199" value="identifiant de la banque&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-199" value="identifiant de la banque&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="601" y="1508" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-200" value="Solde" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-200" value="Solde" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="616" y="1073" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-211" value="Banque d&#39;enregistrement" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-211" value="Banque d&#39;enregistrement" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="616" y="1113" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-212" value="Identifiant du client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-212" value="Identifiant du client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="961" y="1140" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-213" value="Identifiant du compte" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-213" value="Identifiant du compte" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="616" y="918" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-214" value="Identifiant de la banque&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-214" value="Identifiant de la banque&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="219.75" y="1204" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-215" value="identifiant du conseiller&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-215" value="identifiant du conseiller&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="601" y="1388" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-217" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-217" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="133.25" y="2070" width="260" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-218" value="Banque / Agence" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-218" value="Banque / Agence" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="157.75" y="2096" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-219" value="Nommination (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-219" value="Nommination (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="158.75" y="2207" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-220" value="Localisation (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-220" value="Localisation (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="158.75" y="2247" width="209" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-221" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-221" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1005.5" y="2078" width="478" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-222" value="Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-222" value="Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1043.5" y="2100" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-223" value="Nom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-223" value="Nom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1044.5" y="2181" width="389" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-224" value="Prénom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-224" value="Prénom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1044.5" y="2221" width="389" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-227" target="2LoijQER2AwYKau-_3pd-217">
+        <mxCell id="2LoijQER2AwYKau-_3pd-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-227" target="2LoijQER2AwYKau-_3pd-217" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="263" y="2494" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-227" target="2LoijQER2AwYKau-_3pd-233">
+        <mxCell id="2LoijQER2AwYKau-_3pd-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-227" target="2LoijQER2AwYKau-_3pd-233" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="660" y="2380" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-227" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-227" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="500" y="2270" width="288" height="338" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-228" value="Conseiller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-228" value="Conseiller" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="540" y="2310" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-229" value="Nom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-229" value="Nom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="541" y="2391" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-230" value="Prénom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-230" value="Prénom (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="541" y="2431" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-221" target="2LoijQER2AwYKau-_3pd-227">
+        <mxCell id="2LoijQER2AwYKau-_3pd-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-221" target="2LoijQER2AwYKau-_3pd-227" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1200" y="2490" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-233" target="2LoijQER2AwYKau-_3pd-217">
+        <mxCell id="2LoijQER2AwYKau-_3pd-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-233" target="2LoijQER2AwYKau-_3pd-217" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="530" y="1920" />
@@ -481,25 +481,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-248" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-233" target="2LoijQER2AwYKau-_3pd-68">
+        <mxCell id="2LoijQER2AwYKau-_3pd-248" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-233" target="2LoijQER2AwYKau-_3pd-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-427" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-233" target="2LoijQER2AwYKau-_3pd-419">
+        <mxCell id="2LoijQER2AwYKau-_3pd-427" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="2LoijQER2AwYKau-_3pd-233" target="2LoijQER2AwYKau-_3pd-419" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-233" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-233" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="510" y="1770" width="440" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-234" value="Compte Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-234" value="Compte Client" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="555" y="1775" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-235" value="Type de compte (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-235" value="Type de compte (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="556" y="1941" width="344" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-236" value="Date de création (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-236" value="Date de création (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="556" y="1976" width="334" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-221" target="2LoijQER2AwYKau-_3pd-233">
+        <mxCell id="2LoijQER2AwYKau-_3pd-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-221" target="2LoijQER2AwYKau-_3pd-233" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="948.0000000000005" y="2122" as="sourcePoint" />
             <mxPoint x="804" y="1930" as="targetPoint" />
@@ -508,153 +508,156 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-238" value="Date de naissance (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-238" value="Date de naissance (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1044.5" y="2261" width="389" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-239" value="Id_banque (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-239" value="Id_banque (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="541" y="2471" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-240" value="Solde (Réel)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-240" value="Solde (Réel)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="556" y="2076" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-242" value="Id_banque (varchar(250))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-242" value="Id_banque (varchar(250))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="556" y="2116" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-243" value="Id_client (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-243" value="Id_client (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1044.5" y="2141" width="389" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-244" value="Id (varchar(255)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-244" value="Id_compte (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="556" y="1901" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-245" value="Id_banque (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-245" value="Id_banque (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="158.75" y="2167" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-246" value="Id_Conseiller (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-246" value="Id_Conseiller (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="541" y="2351" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-249" value="Dictionnaire de données&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-249" value="Dictionnaire de données&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="33" y="2660" width="1380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-280" value="Identifiant Client" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-280" value="Identifiant Client" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="615" y="880" width="209" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-281" value="Id_client (varchar(255)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-281" value="Id_client (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="560" y="1821" width="215" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-284" value="Identifiant du conseiller" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-284" value="Identifiant du conseiller" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="616" y="1153" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-285" value="id_conseiller (varchar(255)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-285" value="id_conseiller (integer)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;align=left;" parent="1" vertex="1">
           <mxGeometry x="555" y="1865" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-287" value="Situation maritale" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="961" y="303" width="209" height="29" as="geometry" />
+        <mxCell id="2LoijQER2AwYKau-_3pd-287" value="Situation maritale" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="1043" y="280" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-294" value="Situation maritale" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-294" value="Situation maritale" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="961" y="1300" width="209" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-295" value="Situation maritale (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-295" value="Situation maritale (varchar(50))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1044.5" y="2302" width="389" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-297" value="Date de résiliation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-297" value="Date de résiliation" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="616" y="1033" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-298" value="Date de résiliation(Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-298" value="Date de résiliation(Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="556" y="2026" width="334" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-395" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-395" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="30" y="-169" width="260" height="309" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-396" value="Transactions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-396" value="Transactions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="55" y="-140" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-399" value="Montant" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-399" value="Montant" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="56" y="-24" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-401" value="Banque expediteur" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-401" value="Banque expediteur" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="56" y="16" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-404" value="Banque destinnataire" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-404" value="Banque destinnataire" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="56" y="56" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-405" value="Motif" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-405" value="Motif" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="56" y="96" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-409" value="effectue une" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-409" value="effectue une" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="410" y="-229" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-410" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-410" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-1" y="761" width="260" height="389" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-411" value="Transactions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-411" value="Transactions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="24" y="790" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-412" value="Montant" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-412" value="Montant" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="25" y="906" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-413" value="Identifiant&amp;nbsp;banque expediteur" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-413" value="Identifiant&amp;nbsp;banque expediteur" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="25" y="946" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-414" value="Identifiant banque destinnataire" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-414" value="Identifiant banque destinnataire" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="25" y="986" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-415" value="Motif" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-415" value="Motif" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="25" y="1026" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-417" value="Identifiant Compte Destiinataire" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-417" value="Identifiant Compte Destiinataire" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="25" y="866" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-418" value="Identifiant Compte expéditeur" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-418" value="Identifiant Compte expéditeur" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="25" y="826" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-440" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-419" target="2LoijQER2AwYKau-_3pd-217">
+        <mxCell id="2LoijQER2AwYKau-_3pd-440" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2LoijQER2AwYKau-_3pd-419" target="2LoijQER2AwYKau-_3pd-217" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-21" y="2300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-419" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-419" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-151" y="1831" width="260" height="419" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-420" value="Transactions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-420" value="Transactions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-126" y="1860" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-421" value="Montant (Réel)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-421" value="Montant (Réel)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-125" y="1976" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-422" value="id_bank_exp (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-422" value="id_bank_exp (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-125" y="2016" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-423" value="id_bank_dest (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-423" value="id_bank_dest (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-125" y="2056" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-424" value="Motif (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-424" value="Motif (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-125" y="2096" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-425" value="id_compte_dest (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-425" value="id_compte_dest (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-125" y="1936" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-426" value="id_compte_exp (varchar(255))" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-426" value="id_compte_exp (integer)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-125" y="1896" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-428" value="Date" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-428" value="Date" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="56" y="-74" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-430" value="Date d&#39;envoie" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-430" value="Date d&#39;envoie" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="24" y="1065" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-431" value="Date de reception" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-431" value="Date de reception" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="24" y="1105" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-433" value="Date d&#39;envoie (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-433" value="Date d&#39;envoie (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-125" y="2136" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-434" value="Date de reception (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-434" value="Date de reception (Date)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="-125" y="2176" width="209" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2LoijQER2AwYKau-_3pd-441" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2LoijQER2AwYKau-_3pd-441" value="1 ... n" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="73.25" y="-214" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j_aoRD-km2AMqP6AJsLu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2LoijQER2AwYKau-_3pd-166" target="2LoijQER2AwYKau-_3pd-166">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
